@@ -1,0 +1,54 @@
+\section*{附录}
+\addcontentsline{toc}{section}{附录}
+
+\textbf{附录A\quad 问题一MATLAB源程序代码清单}
+
+\begin{enumerate}[label=\arabic*.,leftmargin=2em]
+  \item \texttt{main\_question1.m} --- 问题一主程序
+  \item \texttt{gm11\_neq.m} --- 非等间距GM(1,1)模型核心算法
+  \item \texttt{logistic\_fit.m} --- Logistic增长模型拟合与预测
+  \item \texttt{gompertz\_fit.m} --- Gompertz增长模型拟合与预测
+  \item \texttt{sensitivity\_analysis.m} --- 灵敏度分析程序
+  \item \texttt{leave\_one\_out\_cv.m} --- 留一交叉验证程序
+\end{enumerate}
+
+\textbf{附录B\quad 问题二MATLAB源程序代码清单}
+
+\begin{enumerate}[label=\arabic*.,leftmargin=2em]
+  \item \texttt{run\_q2\_all.m} --- 问题二一键运行入口
+  \item \texttt{load\_q2\_data.m} --- 读取并校验问题二输入数据
+  \item \texttt{critic\_weights.m} --- CRITIC客观权重计算
+  \item \texttt{topsis\_rank.m} --- TOPSIS贴近度与排序计算
+  \item \texttt{rank\_with\_ties.m} --- 竞赛排名并列处理
+  \item \texttt{spearman\_rank.m} --- Spearman等级相关系数计算
+  \item \texttt{wilson\_lower\_bound.m} --- Wilson一致率下限计算
+  \item \texttt{sensitivity\_analysis\_q2.m} --- 六场景灵敏度分析
+  \item \texttt{plot\_q2\_mechanism.m} --- 失败作用机制图绘制
+  \item \texttt{plot\_q2\_ranking.m} --- 因素排序图绘制
+  \item \texttt{plot\_q2\_sensitivity.m} --- 名次稳健性热图绘制
+  \item \texttt{self\_check\_q2.m} --- 数据、权重和排名自检
+  \item \texttt{choose\_q2\_chinese\_font.m} --- 中文字体选择
+\end{enumerate}
+
+\textbf{附录C\quad 支撑材料文件清单}
+
+\begin{enumerate}[label=\arabic*.,leftmargin=2em]
+  \item 问题二输入数据：\texttt{q2\_factor\_evidence.csv}
+  \item 问题二输入数据：\texttt{q2\_supporting\_evidence.csv}
+  \item 问题二输入数据：\texttt{q2\_source\_manifest.csv}
+  \item 问题二输入数据：\texttt{q2\_exclusion\_log.csv}
+  \item 问题二数值输出：\texttt{q2\_critic\_weights.csv}
+  \item 问题二数值输出：\texttt{q2\_topsis\_ranking.csv}
+  \item 问题二数值输出：\texttt{q2\_sensitivity\_results.csv}
+  \item 问题二数值输出：\texttt{q2\_model\_checks.csv}
+  \item 问题二数值输出：\texttt{q2\_results.mat}
+  \item 问题二数值输出：\texttt{q2\_run\_log.txt}
+  \item 问题二独立核验脚本：\texttt{verify\_q2\_python.py}
+  \item 问题二运行说明：\texttt{README\_运行说明.md}
+  \item 问题二图片清单：\texttt{q2\_expected\_figures.csv}
+  \item 问题二最终图片：\texttt{减肥失败作用机制.png}
+  \item 问题二最终图片：\texttt{减重维持因素排行.png}
+  \item 问题二最终图片：\texttt{名词稳健性.png}
+\end{enumerate}
+
+上述支撑材料以电子文件形式提交，原始来源归档于\texttt{数据来源/q2/}目录。

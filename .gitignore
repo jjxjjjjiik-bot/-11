@@ -1,0 +1,31 @@
+# Local agent/browser caches
+.agents/
+.codex/
+.playwright-mcp/
+lfs/
+
+# Large external reference repository, not part of this paper upload
+Math_Model/
+
+# Temporary scripts and generated Python caches
+temp_read_pdf*.py
+__pycache__/
+*.pyc
+
+# LaTeX build byproducts; keep only the current PDF artifact
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+output/*
+!output/main.pdf
+
+# Local backups
+*.bak-*

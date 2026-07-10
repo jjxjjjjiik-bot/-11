@@ -1,0 +1,10 @@
+check_name,status,value,expected,notes
+factor_count,PASS,15,15,Python independent verification
+factor_ids_unique,PASS,15,15,Python independent verification
+no_missing_factor_fields,PASS,complete,complete,Python independent verification
+critic_weights_sum,PASS,1.000000000000000,1,Python independent verification
+topsis_score_range,PASS,0.097721324840..0.838179476573,"[0,1]",Python independent verification
+ranking_covers_all_factors,PASS,15,15,Python independent verification
+tie_ranking_example,PASS,"[1, 2, 2, 4]","[1, 2, 2, 4]",Python independent verification
+all_scenarios_top5_overlap,PASS,5,5,Python independent verification
+all_scenarios_spearman,PASS,0.865245356821,>=0.8,Python independent verification

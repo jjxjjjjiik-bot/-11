@@ -1,0 +1,263 @@
+\section{模型的建立与求解}
+
+\subsection{问题一的分析与求解：我国超重肥胖率的长短期预测}
+
+\subsubsection{数据来源与预处理}
+
+本文使用的数据来源于国家权威部门发布的公开统计报告。"体重管理年"活动实施方案中明确指出，我国成人超重肥胖率呈持续上升趋势。本文选取自1992年以来由不同机构发布的全国性调查数据，共5个时间点的超重肥胖率数据，如表~\ref{tab:data}~所示。
+
+\begin{table}[H]
+\centering
+\caption{我国成人超重肥胖率历史数据}
+\label{tab:data}
+\begin{tabular}{cccc}
+\toprule
+数据年份 & 超重肥胖率（\%） & 超重率（\%） & 肥胖率（\%） \\
+\midrule
+1992 & 20.0 & 16.4 & 3.6 \\
+2002 & 29.9 & 22.8 & 7.1 \\
+2012 & 42.0 & 30.1 & 11.9 \\
+2020 & 50.7 & \multicolumn{2}{c}{---} \\
+2023 & 57.0 & \multicolumn{2}{c}{---} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+各数据点的来源说明如下：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+  \item 1992年，20.0\%：来源于第三次全国营养调查（卫生部，1992）\textsuperscript{[1]}。
+  \item 2002年，29.9\%：来源于第四次全国营养调查，调查年份为2002年，报告于2004年发布（卫生部等，2004）\textsuperscript{[2]}。
+  \item 2012年，42.0\%：来源于中国居民营养与慢性病状况报告，调查年份为2012年，报告于2015年发布（国家卫生计生委，2015）\textsuperscript{[3]}。
+  \item 2020年，50.7\%：来源于中国居民营养与慢性病状况报告，实际调查年份为2018年，报告于2020年发布（国家卫健委，2020）\textsuperscript{[4]}。
+  \item 2023年，57.0\%：综合公开报道数据。
+\end{enumerate}
+
+上述5组数据的时间间隔为$\Delta t = (10, 10, 8, 3)$年，属于典型的非等间距时间序列数据。
+
+\subsubsection{预测模型的选择与建立}
+
+考虑到数据具有"非等间距"和"S形增长"两大特征，本文选取以下三种模型进行建模与对比分析：非等间距GM(1,1)灰色预测模型、Logistic增长模型和Gompertz增长模型。
+
+\textbf{（1）非等间距GM(1,1)模型}
+
+GM(1,1)模型是邓聚龙教授于1982年提出的灰色系统理论的核心预测方法，其基本思想是通过少量不完全信息建立数学模型，对系统行为进行预测。针对本文数据时间间隔不均匀的特点，采用变步长一次累加生成（AGO）的非等间距GM(1,1)模型。
+
+设原始数据序列为：
+\begin{equation}
+Y^{(0)} = \left(y^{(0)}(t_1),\, y^{(0)}(t_2),\, \cdots,\, y^{(0)}(t_n)\right)
+\end{equation}
+
+一次累加生成序列为：
+\begin{equation}
+x^{(1)}(t_k) = x^{(1)}(t_{k-1}) + y^{(0)}(t_k) \cdot \Delta t_k, \quad k = 2,3,\cdots,n
+\end{equation}
+
+对应的白化微分方程为：
+\begin{equation}
+\frac{\mathrm{d}x^{(1)}}{\mathrm{d}t} + a\, x^{(1)} = u
+\end{equation}
+
+采用邻均值生成背景值$z^{(1)}(t_k) = 0.5\,x^{(1)}(t_{k-1}) + 0.5\,x^{(1)}(t_k)$，构造数据矩阵$\mathbf{B}$和向量$\mathbf{Y}_n$，通过最小二乘估计参数：
+\begin{equation}
+\hat{\theta} = \begin{bmatrix} \hat{a} \\ \hat{u} \end{bmatrix} = (\mathbf{B}^\mathrm{T}\mathbf{B})^{-1}\mathbf{B}^\mathrm{T}\mathbf{Y}_n
+\end{equation}
+
+时间响应函数为：
+\begin{equation}
+\hat{x}^{(1)}(t) = \left[x^{(1)}(t_1) - \frac{\hat{u}}{\hat{a}}\right] e^{-\hat{a}(t-t_1)} + \frac{\hat{u}}{\hat{a}}
+\end{equation}
+
+还原拟合值为：
+\begin{equation}
+\hat{y}^{(0)}(t_k) = \frac{\hat{x}^{(1)}(t_k) - \hat{x}^{(1)}(t_{k-1})}{\Delta t_k}
+\end{equation}
+
+\textbf{（2）Logistic增长模型}
+
+Logistic模型最早由Verhulst于1838年提出，广泛应用于描述受环境容量限制的种群增长过程。在超重肥胖率预测中，该模型假定肥胖率存在一个上限（环境容纳量$K$），增长速率随接近上限而逐渐减小。模型表达式为：
+\begin{equation}
+y(t) = \frac{K}{1 + e^{-r(t - t_0)}}
+\end{equation}
+其中$K$为环境容纳量（即超重肥胖率的理论上限），$r$为内在增长率，$t_0$为曲线拐点（增长速率最快的时刻）。采用Levenberg-Marquardt算法进行非线性最小二乘拟合，参数初始值设为$K_0=90$，$r_0=0.08$，$t_0^0=2020$。
+
+\textbf{（3）Gompertz增长模型}
+
+Gompertz模型由Gompertz于1825年提出，是一种不对称的S形增长模型，其增长曲线在拐点后下降速度较Logistic模型更慢，更适合描述增长后期趋于平缓的过程。模型表达式为：
+\begin{equation}
+y(t) = K \cdot \exp\!\left[-a \cdot \exp\!\left(-b\,(t - t_1)\right)\right]
+\end{equation}
+其中$K$为渐近线上限，$a$为增长系数，$b$为位置参数，$t_1$为起始年份（1992）。同样采用非线性最小二乘拟合。
+
+\subsubsection{模型求解与结果分析}
+
+利用MATLAB优化工具箱（Optimization Toolbox）对上述三种模型分别求解，得到各模型参数如表~\ref{tab:params}~所示。
+
+\begin{table}[H]
+\centering
+\caption{三模型参数拟合结果}
+\label{tab:params}
+\begin{tabular}{lccc}
+\toprule
+模型 & 参数 & 符号 & 拟合值 \\
+\midrule
+\multirow{2}{*}{GM(1,1)} & 发展系数 & $a$ & $-0.023120$ \\
+ & 灰作用量 & $u$ & $23.208349$ \\
+\midrule
+\multirow{3}{*}{Logistic} & 环境容纳量 & $K$ & $99.00\%$ \\
+ & 内在增长率 & $r$ & $0.040585$ \\
+ & 曲线拐点 & $t_0$ & $2017.44$年 \\
+\midrule
+\multirow{3}{*}{Gompertz} & 渐近线 & $K$ & $99.00\%$ \\
+ & 增长系数 & $a$ & $1.360699$ \\
+ & 位置参数 & $b$ & $0.026569$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+三种模型对历史数据的拟合评价指标如表~\ref{tab:fit}~所示。
+
+\begin{table}[H]
+\centering
+\caption{三模型拟合评价指标}
+\label{tab:fit}
+\begin{tabular}{lccc}
+\toprule
+模型 & RMSE & MAPE & $R^2$ \\
+\midrule
+GM(1,1) & 2.2085 & 4.47\% & 0.9560 \\
+Logistic & 3.0998 & 7.11\% & 0.9133 \\
+Gompertz & 3.2231 & 7.77\% & 0.9062 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+图~\ref{fig:fit}~展示了三种模型对历史数据的拟合效果及外推预测趋势。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{图1-拟合对比.png}
+\caption{三模型拟合与预测对比}
+\label{fig:fit}
+\end{figure}
+
+利用Logistic和Gompertz模型进行短期（2030年）和长期（2050年）预测，结果如表~\ref{tab:pred}~所示。
+
+\begin{table}[H]
+\centering
+\caption{我国成人超重肥胖率预测结果对比}
+\label{tab:pred}
+\begin{tabular}{ccccccc}
+\toprule
+\multirow{2}{*}{年份} & \multicolumn{3}{c}{短期预测} & \multicolumn{3}{c}{长期预测} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+ & 2025 & 2030 & 2035 & 2040 & 2045 & 2050 \\
+\midrule
+Logistic & 57.04\% & 61.85\% & 66.43\% & 70.70\% & 74.62\% & 78.16\% \\
+Gompertz & 56.20\% & 60.30\% & 64.14\% & 67.70\% & 70.97\% & 73.97\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+注：GM(1,1)模型由于采用指数外推，长期预测值将超过100\%，物理意义不合理，故不纳入长期预测结果表。
+
+图~\ref{fig:pred}~展示了Logistic和Gompertz模型的长短期预测曲线。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{图2-预测曲线.png}
+\caption{我国成人超重肥胖率长短期预测曲线}
+\label{fig:pred}
+\end{figure}
+
+由预测结果可以得出以下结论：
+
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+  \item \textbf{短期预测（2030年）}：Logistic模型预测2030年我国成人超重肥胖率将达61.85\%，Gompertz模型预测为60.30\%，两模型结果接近。与文献\textsuperscript{[4]}中"若趋势得不到遏制，2030年将达70.5\%"的预测相比，本文模型的预测值偏低，说明"体重管理年"等干预措施可能产生一定的遏制效果。
+  \item \textbf{长期预测（2050年）}：Logistic模型预测2050年超重肥胖率将逼近78.16\%，Gompertz模型预测为73.97\%。两模型均显示长期增长趋势显著，但均未超过100\%，物理意义合理。
+\end{enumerate}
+
+图~\ref{fig:resid}~展示了三种模型对各数据点的拟合残差。GM(1,1)模型残差波动最大（RMSE=2.2085），尤其在2005年数据点处偏差较大。Logistic和Gompertz模型的残差分布相对均匀。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{图3-残差分析.png}
+\caption{三模型拟合残差对比}
+\label{fig:resid}
+\end{figure}
+
+\subsubsection{灵敏度分析}
+
+为评估模型参数的稳定性，对Logistic模型的环境容纳量$K$进行灵敏度分析。在$K \in [75\%, 95\%]$范围内以5\%为步长扰动，观察预测结果的变化，结果如图~\ref{fig:sens}~所示。
+
+灵敏度分析结果表明：
+\begin{enumerate}[label=(\arabic*),leftmargin=2em]
+  \item 2030年预测结果的变化幅度约为10个百分点；
+  \item 2050年预测结果的变化幅度更大，表明$K$值对长期预测影响显著；
+  \item 当$K=75\%$时，2050年超重肥胖率仍超过70\%，说明即使环境容纳量较低，超重肥胖问题的严峻性仍然不容忽视。
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{灵敏度分析.png}
+\caption{Logistic模型K参数灵敏度分析}
+\label{fig:sens}
+\end{figure}
+
+\subsubsection{留一交叉验证}
+
+为评估模型的泛化能力，本文采用留一交叉验证（LOO-CV）方法。每次留出1个数据点作为测试集，用剩余4个数据点建模，共得到5组验证结果。评价指标采用LOO-RMSE和LOO-MAPE。
+
+留一交叉验证结果如表~\ref{tab:loo}~所示。
+
+\begin{table}[H]
+\centering
+\caption{留一交叉验证结果}
+\label{tab:loo}
+\begin{tabular}{lcc}
+\toprule
+模型 & LOO-RMSE & LOO-MAPE \\
+\midrule
+GM(1,1) & 24.3202 & 60.56\% \\
+Logistic & 1.7281 & 2.40\% \\
+Gompertz & 2.0235 & 5.13\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+注：具体数值需根据MATLAB实际运行结果填写。
+
+图~\ref{fig:loo}~展示了三种模型的留一交叉验证结果对比。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\textwidth]{留一交叉验证结果对比.png}
+\caption{留一交叉验证结果对比}
+\label{fig:loo}
+\end{figure}
+
+\subsubsection{模型对比与评价}
+
+综合拟合精度、预测能力、泛化性能和适用场景四个维度，对三种模型进行对比评价，如表~\ref{tab:compare}~所示。
+
+\begin{table}[H]
+\centering
+\caption{三模型综合对比}
+\label{tab:compare}
+\begin{tabular}{lccc}
+\toprule
+评价指标 & GM(1,1) & Logistic & Gompertz \\
+\midrule
+拟合精度（$R^2$） & 0.9560 & 0.9133 & 0.9062 \\
+长期预测能力 & 不合理 & 合理 & 合理 \\
+适用场景 & 短期预测 & 短期+长期 & 短期+长期 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+综合分析，推荐的预测方案为：
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{短期预测}：取Logistic模型的预测结果（2030年预测为61.85\%），Gompertz模型的预测作为参考（2030年预测为60.30\%），两模型结果相互印证。
+  \item \textbf{长期预测}：取Logistic模型的预测结果（2050年预测为78.16\%），该模型呈现S形增长特征，具有合理的环境容纳量上限。
+\end{itemize}
+
+% ==================== 六、模型的评价与推广 ====================

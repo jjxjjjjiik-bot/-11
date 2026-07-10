@@ -1,0 +1,66 @@
+% ==================== main.tex ====================
+% 主文件：组装所有章节，编译输出 main.pdf
+% 编译命令：tectonic.exe -X compile --print main.tex
+%
+% 文件结构：
+%   main.tex        ← 本文件（封面+摘要+组装）
+%   preamble.tex    ← 公共配置（宏包、页眉页脚、格式）
+%   sections/       ← 各章节独立文件
+%     intro.tex       ← 问题重述
+%     analysis.tex    ← 问题分析
+%     assumption.tex  ← 模型假设
+%     symbols.tex     ← 符号说明
+%     q1.tex          ← 问题一
+%     q2.tex          ← 问题二
+%     q3.tex          ← 问题三
+%     q4.tex          ← 问题四
+%     evaluate.tex    ← 模型评价与推广
+%     refs.tex        ← 参考文献
+%     appendix.tex    ← 附录
+%   figures/        ← 图片（按问题分子目录）
+%     q1/ q2/ q3/ q4/
+%   matlab/         ← MATLAB 源代码
+%   output/         ← 编译输出目录
+%     main.pdf        ← 最终 PDF
+% ======================================================
+
+\documentclass[a4paper,12pt]{article}
+
+% 导入公共配置
+\input{preamble}
+
+% 图片搜索路径
+\graphicspath{{figures/q1/}{figures/q2/}{figures/q3/}{figures/q4/}}
+
+\begin{document}
+
+% ==================== 摘要专用页 ====================
+\begin{center}
+  {\LARGE\bfseries 我国超重肥胖率的长短期预测模型研究}
+\end{center}
+\vspace{1em}
+
+\noindent\textbf{摘\quad 要：}
+% TODO: 填写摘要内容（不超过一页）
+% 结构：背景意义 → 针对问题一... → 针对问题二... → 针对问题三... → 针对问题四... → 关键词
+\vspace{0.5em}
+
+\noindent\textbf{关键词：}
+% TODO: 3-5个关键词，用分号分隔
+
+\newpage
+
+% ==================== 正文章节 ====================
+\input{sections/intro}
+\input{sections/analysis}
+\input{sections/assumption}
+\input{sections/symbols}
+\input{sections/q1}
+\input{sections/q2}
+\input{sections/q3}
+\input{sections/q4}
+\input{sections/evaluate}
+\input{sections/refs}
+\input{sections/appendix}
+
+\end{document}
