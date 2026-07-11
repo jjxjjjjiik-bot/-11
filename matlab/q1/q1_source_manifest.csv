@@ -1,6 +1,6 @@
 year,rate_percent,source_citation,source_type,local_archive_file,verification_status,model_note
-1992,20.0,"卫生部. 第三次全国营养调查报告. 1992.",national_survey_report,,verified,固定输入点
-2002,29.9,"卫生部等. 第四次全国营养调查报告. 2004.",national_survey_report,,verified,固定输入点
+1992,20.0,"王友发等. 中国居民肥胖防治专家共识. 中国预防医学杂志, 2022, 23(5):321-339.",expert_consensus,,verified,超重率16.4%与肥胖率3.6%合计为20.0%
+2002,29.9,"Wu Y. Overweight and obesity in China. BMJ, 2006, 333(7564):362-363.",journal_article,,verified,超重率22.8%与肥胖率7.1%合计为29.9%
 2012,42.0,"国家卫生计生委. 中国居民营养与慢性病状况报告（2015年）. 2015.",national_surveillance_report,,verified,固定输入点
 2020,50.7,"国家卫生健康委. 中国居民营养与慢性病状况报告（2020年）. 2020.",national_surveillance_report,,verified,固定输入点
-2023,57.0,"Hu J, Xie J, Liu B, et al. Major risk factors of obesity in China and recommendations for future prevention and control efforts. The Lancet Regional Health - Western Pacific, 2026, 68:101833. DOI:10.1016/j.lanwpc.2026.101833.",journal_article,,verified,原研究报告56.9%；本文保留一位小数记为57.0%
+2023,57.0,"Hu J, Xie J, Liu B, et al. Major risk factors of obesity in China and recommendations for future prevention and control efforts: a systematic review and meta-analysis. The Lancet Regional Health - Western Pacific, 2026, 68:101833. DOI:10.1016/j.lanwpc.2026.101833.",journal_article,,verified,原研究报告56.9%；本文按整数百分比取57%并记为57.0%

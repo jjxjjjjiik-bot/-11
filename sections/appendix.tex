@@ -1,136 +1,35 @@
+% ==================== 附录 ====================
+
 \section*{附录}
 \addcontentsline{toc}{section}{附录}
 
-\textbf{附录A\quad 问题一MATLAB源程序代码清单}
+\subsection*{附录A\quad 支撑材料文件清单}
 
-\begin{enumerate}[label=\arabic*.,leftmargin=2em]
-  \item \texttt{main\_question1.m} --- 问题一主程序
-  \item \texttt{logistic\_fit.m} --- Logistic增长模型拟合与预测
-  \item \texttt{gompertz\_fit.m} --- Gompertz增长模型拟合与预测
-  \item \texttt{sensitivity\_analysis.m} --- 灵敏度分析程序
-  \item \texttt{leave\_one\_out\_cv.m} --- 留一交叉验证程序
-  \item \texttt{rolling\_origin\_validation.m} --- 滚动起点预测验证程序
-  \item \texttt{tests/test\_q1\_pipeline.py} --- Python独立数值核验程序
-  \item \texttt{q1\_source\_manifest.csv} --- 五个数据点的来源与核验清单
-  \item \texttt{output/q1\_model\_results.csv} --- 模型参数与评价指标
-  \item \texttt{output/q1\_predictions.csv} --- 2025---2050年预测结果
-  \item \texttt{output/q1\_loo\_details.csv} --- 留一交叉验证逐点结果
-  \item \texttt{output/q1\_rolling\_validation.csv} --- 滚动起点预测结果
-  \item \texttt{output/q1\_sensitivity\_results.csv} --- 饱和上限敏感性结果
-  \item \texttt{output/q1\_model\_checks.csv} --- 模型自检结果
-\end{enumerate}
+完整可运行程序、输入数据、输出结果和正文图片均放入电子支撑材料。表~\ref{tab:appendix-files}~给出目录级清单，具体文件名、官方链接、用途和核验状态分别记录在各问题的来源清单与随包说明中。
 
-\textbf{附录B\quad 问题二MATLAB源程序代码清单}
+\begin{longtable}{p{3.0cm}p{9.3cm}}
+\caption{支撑材料文件清单}\label{tab:appendix-files}\\
+\toprule
+目录 & 内容 \\
+\midrule
+\endfirsthead
+\toprule
+目录 & 内容 \\
+\midrule
+\endhead
+\path{matlab/q1/} & 6个MATLAB程序、数据来源清单，以及模型参数、预测、滚动验证、敏感性和自检结果 \\
+\path{matlab/q2/} & 13个MATLAB程序、输入证据，以及权重、排名、敏感性和自检结果 \\
+\path{matlab/q3/} & 12个MATLAB程序，以及画像、方案、排名、敏感性和自检结果 \\
+\path{matlab/q4/} & 10个MATLAB程序、1个人口数据提取Python程序，以及基准、情景、模拟、敏感性和自检结果 \\
+问题二数据来源目录 & 9项学术与官方来源的本地归档和书目元数据，详见\path{q2_source_manifest.csv} \\
+问题三数据来源目录 & 指南参数表、评分规则、提取记录、证据说明和来源清单；大型官方原文以链接和哈希值追溯 \\
+问题四数据来源目录 & 27年人口输入、情景参数、证据说明和来源清单；大型WPP原始文件以官方链接和SHA-256追溯 \\
+\path{figures/q1--q4/} & 正文采用的全部PNG图片，以及用于结果复核的补充排序图和画像图 \\
+\bottomrule
+\end{longtable}
 
-\begin{enumerate}[label=\arabic*.,leftmargin=2em]
-  \item \texttt{run\_q2\_all.m} --- 问题二一键运行入口
-  \item \texttt{load\_q2\_data.m} --- 读取并校验问题二输入数据
-  \item \texttt{critic\_weights.m} --- CRITIC客观权重计算
-  \item \texttt{topsis\_rank.m} --- TOPSIS贴近度与排序计算
-  \item \texttt{rank\_with\_ties.m} --- 竞赛排名并列处理
-  \item \texttt{spearman\_rank.m} --- Spearman等级相关系数计算
-  \item \texttt{wilson\_lower\_bound.m} --- Wilson一致率下限计算
-  \item \texttt{sensitivity\_analysis\_q2.m} --- 六场景灵敏度分析
-  \item \texttt{plot\_q2\_mechanism.m} --- 失败作用机制图绘制
-  \item \texttt{plot\_q2\_ranking.m} --- 因素排序图绘制
-  \item \texttt{plot\_q2\_sensitivity.m} --- 名次稳健性热图绘制
-  \item \texttt{self\_check\_q2.m} --- 数据、权重和排名自检
-  \item \texttt{choose\_q2\_chinese\_font.m} --- 中文字体选择
-\end{enumerate}
+\subsection*{附录B\quad 完整程序索引}
 
-\textbf{附录C\quad 问题三MATLAB源程序代码清单}
+问题一的运行入口为\path{matlab/q1/main_question1.m}；问题二、问题三和问题四的运行入口依次为\path{matlab/q2/run_q2_all.m}、\path{matlab/q3/run_q3_all.m}和\path{matlab/q4/run_q4_all.m}。各入口程序调用同目录下的拟合、排序、敏感性分析、绘图和自检函数，调用顺序见入口程序文件头和随包提供的《支撑材料说明》。问题四另保留\path{matlab/q4/prepare_q4_inputs.py}，用于从WPP官方单岁人口文件生成模型输入。
 
-\begin{enumerate}[label=\arabic*.,leftmargin=2em]
-  \item \texttt{run\_q3\_all.m} --- 问题三一键运行入口
-  \item \texttt{load\_q3\_data.m} --- 读取并校验问题三输入数据
-  \item \texttt{build\_q3\_profiles.m} --- 五类生活方式画像构建
-  \item \texttt{build\_q3\_plans.m} --- 十五套候选方案及指标计算
-  \item \texttt{q3\_apply\_safety\_constraints.m} --- 四项指南范围初筛
-  \item \texttt{q3\_topsis\_rank.m} --- 六指标TOPSIS计算
-  \item \texttt{q3\_rank\_with\_ties.m} --- 组内并列排名处理
-  \item \texttt{q3\_sensitivity\_analysis.m} --- 六十场景权重敏感性分析
-  \item \texttt{q3\_model\_checks.m} --- 数据、约束、权重和结果自检
-  \item \texttt{plot\_q3\_profiles.m} --- 五类画像雷达图绘制
-  \item \texttt{plot\_q3\_ranking.m} --- 候选方案组内得分图绘制
-  \item \texttt{plot\_q3\_coverage.m} --- 失败因素覆盖差异图绘制
-  \item \texttt{q3\_python\_smoke\_test.py} --- 问题三独立数值核验脚本
-  \item \texttt{check\_q3\_package.ps1} --- 问题三支撑材料完整性检查
-\end{enumerate}
-
-\textbf{附录D\quad 问题四程序代码清单}
-
-\begin{enumerate}[label=\arabic*.,leftmargin=2em]
-  \item \texttt{run\_q4\_all.m} --- 问题四一键运行入口
-  \item \texttt{load\_q4\_data.m} --- 人口与情景参数读取校验
-  \item \texttt{build\_q4\_baseline.m} --- 年度率网格与基准负担构造
-  \item \texttt{run\_q4\_scenarios.m} --- 低、中、高点情景计算
-  \item \texttt{q4\_uncertainty\_analysis.m} --- 五万次蒙特卡洛与敏感性分析
-  \item \texttt{q4\_model\_checks.m} --- 数值恒等式、边界和复现性自检
-  \item \texttt{plot\_q4\_dpsir.m} --- DPSIR危险机会框架图绘制
-  \item \texttt{plot\_q4\_burden.m} --- 基准率与人数负担图绘制
-  \item \texttt{plot\_q4\_scenarios.m} --- 三种干预情景比较图绘制
-  \item \texttt{plot\_q4\_sensitivity.m} --- 模拟区间与敏感性图绘制
-  \item \texttt{prepare\_q4\_inputs.py} --- WPP单岁人口流式提取脚本
-  \item \texttt{q4\_python\_smoke\_test.py} --- Python独立数值复算脚本
-  \item \texttt{tests/test\_q4\_pipeline.py} --- 问题四流水线回归测试
-  \item \texttt{check\_q4\_package.ps1} --- 问题四支撑材料完整性检查
-\end{enumerate}
-
-\textbf{附录E\quad 支撑材料文件清单}
-
-\begin{enumerate}[label=\arabic*.,leftmargin=2em]
-  \item 问题二输入数据：\texttt{q2\_factor\_evidence.csv}
-  \item 问题二输入数据：\texttt{q2\_supporting\_evidence.csv}
-  \item 问题二输入数据：\texttt{q2\_source\_manifest.csv}
-  \item 问题二输入数据：\texttt{q2\_exclusion\_log.csv}
-  \item 问题二数值输出：\texttt{q2\_critic\_weights.csv}
-  \item 问题二数值输出：\texttt{q2\_topsis\_ranking.csv}
-  \item 问题二数值输出：\texttt{q2\_sensitivity\_results.csv}
-  \item 问题二数值输出：\texttt{q2\_model\_checks.csv}
-  \item 问题二数值输出：\texttt{q2\_results.mat}
-  \item 问题二数值输出：\texttt{q2\_run\_log.txt}
-  \item 问题二独立核验脚本：\texttt{verify\_q2\_python.py}
-  \item 问题二运行说明：\texttt{README\_运行说明.md}
-  \item 问题二图片清单：\texttt{q2\_expected\_figures.csv}
-  \item 问题二最终图片：\texttt{减肥失败作用机制.png}
-  \item 问题二最终图片：\texttt{减重维持因素排行.png}
-  \item 问题二最终图片：\texttt{名词稳健性.png}
-  \item 问题三来源清单：\texttt{q3\_source\_manifest.csv}
-  \item 问题三参数表：\texttt{q3\_parameter\_table.csv}
-  \item 问题三评分规则：\texttt{q3\_scoring\_rules.csv}
-  \item 问题三证据笔记：\texttt{q3\_evidence\_notes.md}
-  \item 问题三提取记录：\texttt{q3\_extraction\_notes.csv}
-  \item 问题三数值输出：\texttt{q3\_profile\_scores.csv}
-  \item 问题三数值输出：\texttt{q3\_plan\_scores.csv}
-  \item 问题三数值输出：\texttt{q3\_plan\_ranking.csv}
-  \item 问题三数值输出：\texttt{q3\_weight\_sensitivity.csv}
-  \item 问题三数值输出：\texttt{q3\_weight\_sensitivity\_summary.csv}
-  \item 问题三数值输出：\texttt{q3\_model\_checks.csv}
-  \item 问题三数值输出：\texttt{q3\_results.mat}
-  \item 问题三运行日志：\texttt{q3\_run\_log.txt}
-  \item 问题三运行说明：\texttt{README\_运行说明.md}
-  \item 问题三最终图片：\texttt{雷达图.png}
-  \item 问题三最终图片：\texttt{候选方案组内的得分.png}
-  \item 问题三最终图片：\texttt{失败因素的覆盖差异.png}
-  \item 问题四人口输入：\texttt{q4\_population\_projection.csv}
-  \item 问题四情景参数：\texttt{q4\_scenario\_parameters.csv}
-  \item 问题四来源清单：\texttt{q4\_source\_manifest.csv}
-  \item 问题四证据说明：\texttt{q4\_evidence\_notes.md}
-  \item 问题四基准网格：\texttt{q4\_baseline\_grid.csv}
-  \item 问题四基准负担：\texttt{q4\_baseline\_burden.csv}
-  \item 问题四点情景结果：\texttt{q4\_scenario\_results.csv}
-  \item 问题四关键结果：\texttt{q4\_key\_results.csv}
-  \item 问题四模拟输入：\texttt{q4\_mc\_inputs.csv}
-  \item 问题四模拟分位数：\texttt{q4\_uncertainty\_summary.csv}
-  \item 问题四敏感性结果：\texttt{q4\_sensitivity\_ranking.csv}
-  \item 问题四自检结果：\texttt{q4\_model\_checks.csv}
-  \item 问题四结果文件：\texttt{q4\_results.mat}
-  \item 问题四运行日志：\texttt{q4\_run\_log.txt}
-  \item 问题四运行说明：\texttt{README\_运行说明.md}
-  \item 问题四最终图片：\texttt{DPSIR危险机会传导框架.png}
-  \item 问题四最终图片：\texttt{成人超重肥胖基准负担.png}
-  \item 问题四最终图片：\texttt{不同干预情景负担比较.png}
-  \item 问题四最终图片：\texttt{不确定性与参数敏感性.png}
-\end{enumerate}
-
-上述支撑材料以电子文件形式提交，问题二、问题三与问题四的原始来源分别归档于\texttt{数据来源/q2/}、\texttt{数据来源/q3/}和\texttt{数据来源/q4/}目录。问题四原始WPP压缩包与大型Excel仅用于来源追溯，不进入20\,MB最终支撑包；最终包保留提取后的最小CSV、来源清单和可复现提取脚本。
+问题四WPP原始压缩CSV与大型Excel合计超过20\,MB，不直接装入最终支撑包；支撑包保留由其确定性提取得到的27年最小人口CSV、提取程序、官方URL和SHA-256。论文不使用代码截图，完整源程序均以可编辑文本文件随电子支撑材料提交。

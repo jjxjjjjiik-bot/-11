@@ -2,21 +2,14 @@ $ErrorActionPreference = 'Stop'
 
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 $output = Join-Path $PSScriptRoot 'output'
-$dataCandidates = @(Get-ChildItem -LiteralPath $root -Directory -Recurse -Filter 'q4' | Where-Object {
-    Test-Path -LiteralPath (Join-Path $_.FullName 'q4_population_projection.csv') -PathType Leaf
+$dataParents = @(Get-ChildItem -LiteralPath $root -Directory | Where-Object {
+    Test-Path -LiteralPath (Join-Path $_.FullName 'q4\q4_population_projection.csv') -PathType Leaf
 })
-if ($dataCandidates.Count -ne 1) {
-    throw "Could not uniquely locate the Q4 data directory. Count=$($dataCandidates.Count)"
+if ($dataParents.Count -ne 1) {
+    throw "Could not uniquely locate the Q4 data parent. Count=$($dataParents.Count)"
 }
-$data = $dataCandidates[0].FullName
-
-$figureCandidates = @(Get-ChildItem -LiteralPath $root -Directory -Recurse -Filter 'q4' | Where-Object {
-    @(Get-ChildItem -LiteralPath $_.FullName -File -Filter '*.png' -ErrorAction SilentlyContinue).Count -eq 4
-})
-if ($figureCandidates.Count -ne 1) {
-    throw "Could not uniquely locate the Q4 figure directory. Count=$($figureCandidates.Count)"
-}
-$figures = $figureCandidates[0].FullName
+$data = Join-Path $dataParents[0].FullName 'q4'
+$figures = Join-Path $root 'figures\q4'
 $figureFiles = @(Get-ChildItem -LiteralPath $figures -File -Filter '*.png')
 
 $required = @(
