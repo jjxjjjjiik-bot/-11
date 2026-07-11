@@ -1,0 +1,76 @@
+% ==================== main.tex ====================
+% 主文件：组装所有章节，编译输出 main.pdf
+% 编译命令：tectonic.exe -X compile --print main.tex
+%
+% 文件结构：
+%   main.tex        ← 本文件（封面+摘要+组装）
+%   preamble.tex    ← 公共配置（宏包、页眉页脚、格式）
+%   sections/       ← 各章节独立文件
+%     intro.tex       ← 问题重述
+%     analysis.tex    ← 问题分析
+%     assumption.tex  ← 模型假设
+%     symbols.tex     ← 符号说明
+%     q1.tex          ← 问题一
+%     q2.tex          ← 问题二
+%     q3.tex          ← 问题三
+%     q4.tex          ← 问题四
+%     evaluate.tex    ← 模型评价与推广
+%     refs.tex        ← 参考文献
+%     appendix.tex    ← 附录
+%   figures/        ← 图片（按问题分子目录）
+%     q1/ q2/ q3/ q4/
+%   matlab/         ← MATLAB 源代码
+%   output/         ← 编译输出目录
+%     main.pdf        ← 最终 PDF
+% ======================================================
+
+\documentclass[a4paper,11pt]{article}
+
+% 导入公共配置
+\input{preamble}
+
+% 图片搜索路径
+\graphicspath{{figures/q1/}{figures/q2/}{figures/q3/}{figures/q4/}}
+
+\begin{document}
+
+% ==================== 摘要专用页 ====================
+\begin{center}
+  {\LARGE\bfseries 我国成人超重肥胖趋势、减重决策与干预情景研究}
+\end{center}
+\vspace{1em}
+
+\begin{center}
+  {\Large\bfseries 摘\quad 要}
+\end{center}
+\vspace{0.4em}
+
+\noindent 我国成人超重肥胖负担持续上升，预测其变化并把主要失败因素转化为可执行干预，是体重管理决策的基础。本文依次建立趋势预测、失败因素排序、分人群方案优选和全民干预情景模型，形成从风险识别到政策响应的分析链条。
+
+针对问题一，使用1992---2023年5个全国成人超重肥胖率数据点，以固定物理上限的两参数Logistic模型为主模型、Gompertz模型为结构对照。Logistic拟合RMSE为0.7834，留一删点RMSE为1.3406；其2030年和2050年预测分别为64.71\%和83.92\%，Gompertz对应为62.42\%和78.39\%。饱和上限重新拟合表明，2030年结果较稳定，而2050年存在明显结构与上限不确定性。
+
+针对问题二，从同一系统综述中筛选15项同口径可干预因素，采用CRITIC客观赋权和TOPSIS排序。体力活动未持续增加排名第一，未持续降低总能量摄入与不经常监测体重并列第二，未减少不健康食品和果蔬摄入不足分列第四、第五；6种灵敏度场景的前五项完全一致，最低Spearman系数为0.8652。
+
+针对问题三，依据久坐、睡眠、饮食、压力、时间和监测风险构建5类生活方式画像，并对15套候选方案进行指南范围初筛和六指标TOPSIS组内优选。久坐办公、夜班熬夜、高压应酬、时间受限和饮食失衡人群的首选依次为能量控制与饮食记录、夜间加餐能量管理、应酬饮食与饮酒管理、碎片运动与周末备餐、总能量记录与份量控制。60个权重扰动情景中，久坐办公、夜班熬夜、高压应酬和饮食失衡型的首选稳定率为100\%，时间受限型为66.67\%，需在效果与时间负担之间个体化选择。
+
+针对问题四，以DPSIR框架组织危险与机会，将问题一逐年预测率与WPP~2024成年人口相结合。主模型下，2030---2050年18岁以上人口下降5.43\%，成人超重肥胖人数却由7.596亿增至9.317亿。低、中、高执行情景在2050年相对基准的可避免人数点估计分别为465.86万、2795.18万和8385.53万；联合结构情景中位数分别为422.24万、2558.39万和7724.97万。结果表明，扩大覆盖、提高长期依从、实施分层方案并滚动更新监测数据，是降低未来负担的关键。
+\vspace{0.5em}
+
+\noindent\textbf{关键词：}Logistic模型；CRITIC--TOPSIS；生活方式画像；DPSIR；情景模拟
+
+\newpage
+
+% ==================== 正文章节 ====================
+\input{sections/intro}
+\input{sections/analysis}
+\input{sections/assumption}
+\input{sections/symbols}
+\input{sections/q1}
+\input{sections/q2}
+\input{sections/q3}
+\input{sections/q4}
+\input{sections/evaluate}
+\input{sections/refs}
+\input{sections/appendix}
+
+\end{document}

@@ -1,0 +1,15 @@
+check_name,status,value,expected,notes
+factor_count,PASS,15,"15",因素总数
+factor_ids_unique,PASS,15,"15",编号唯一
+numeric_inputs_complete,PASS,true,"true",无数值缺失
+direction_consistency,PASS,1.110e-16,"<1e-12",统一方向后的一致率
+source_traceability,PASS,true,"true",表号与原文行名
+M4_counts,PASS,7/8/7,"7/8/7",研究篇数/方向判断次数/支持次数
+critic_weights_sum,PASS,1.000000000000000,"1",权重和
+topsis_range,PASS,0.097721324840..0.838179476573,"[0,1]",贴近度范围
+ranking_complete,PASS,15,"15",覆盖全部因素
+tie_ranking,PASS,[1 2 2 4],"[1 2 2 4]",并列名次
+python_weight_reference_error,PASS,4.165e-09,"<=1e-8",MATLAB与Python基准权重误差
+python_score_reference_error,PASS,1.110e-16,"<=1e-8",MATLAB与Python基准TOPSIS误差
+all_top5_overlap,PASS,[5 5 5 5 5 5],"all 5",六场景前五重合
+all_spearman_rho,PASS,min 0.865245356821,">=0.8",六场景排序相关

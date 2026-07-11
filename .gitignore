@@ -31,3 +31,6 @@ output/*
 *.bak-*
 .worktrees/
 worktrees/
+
+# Submission staging directory
+_support_materials/

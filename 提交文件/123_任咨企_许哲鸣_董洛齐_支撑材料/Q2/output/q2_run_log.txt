@@ -1,0 +1,8 @@
+Q2 MATLAB run log
+Timestamp: 2026-07-12 04:18:55
+State: SUCCESS
+MATLAB version: 24.1.0.2537033 (R2024a)
+Factor rows: 15
+Baseline CRITIC weights: 0.238194473347, 0.419561680818, 0.342243845835
+Minimum Spearman rho: 0.865245356821
+Failed checks: 0

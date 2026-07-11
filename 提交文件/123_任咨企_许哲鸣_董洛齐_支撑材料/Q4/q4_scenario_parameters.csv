@@ -1,0 +1,10 @@
+scenario,parameter,lower,mode,upper,parameter_type,unit,meaning
+low,coverage,0.15,0.25,0.35,scenario_assumption,proportion,2030年及以后被干预覆盖的人群比例
+low,adherence,0.30,0.40,0.50,scenario_assumption,proportion,已覆盖人群中实际坚持干预的条件比例
+low,effect,0.03,0.05,0.07,scenario_assumption,relative_reduction,坚持干预者中的超重肥胖负担相对削减比例
+medium,coverage,0.35,0.50,0.65,scenario_assumption,proportion,2030年及以后被干预覆盖的人群比例
+medium,adherence,0.50,0.60,0.70,scenario_assumption,proportion,已覆盖人群中实际坚持干预的条件比例
+medium,effect,0.07,0.10,0.13,scenario_assumption,relative_reduction,坚持干预者中的超重肥胖负担相对削减比例
+high,coverage,0.60,0.75,0.90,scenario_assumption,proportion,2030年及以后被干预覆盖的人群比例
+high,adherence,0.70,0.80,0.90,scenario_assumption,proportion,已覆盖人群中实际坚持干预的条件比例
+high,effect,0.12,0.15,0.18,scenario_assumption,relative_reduction,坚持干预者中的超重肥胖负担相对削减比例

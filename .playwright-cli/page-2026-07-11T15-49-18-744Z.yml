@@ -1,0 +1,1998 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - text:               
+      - banner [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - generic [ref=e15]:
+                - textbox "请选择" [ref=e16] [cursor=pointer]: 论文
+                - generic [ref=e18] [cursor=pointer]: 
+              - textbox "想找什么？请输入关键词进行搜索" [ref=e19]
+              - button " 搜索" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: 
+                - generic [ref=e23]: 搜索
+            - generic [ref=e24] [cursor=pointer]: 高级检索
+          - generic [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]: IP登录
+            - generic [ref=e29] [cursor=pointer]: 登录
+            - generic [ref=e31] [cursor=pointer]: 注册
+          - text:  
+        - generic [ref=e33]:
+          - generic [ref=e34]: 中华流行病学杂志
+          - generic [ref=e35]:
+            - generic [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]: 
+              - text: 期刊首页
+            - generic [ref=e39] [cursor=pointer]:  过刊列表
+            - generic [ref=e41] [cursor=pointer]:  高级检索
+            - generic [ref=e43] [cursor=pointer]:  稿件发表
+          - text: 
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: •
+              - generic [ref=e49]: 标准·方案·指南
+              - generic [ref=e50]: •
+            - generic "关闭英文摘要" [ref=e51] [cursor=pointer]:
+              - generic [ref=e52]: 
+              - generic [ref=e53]: ENGLISH ABSTRACT
+          - generic [ref=e55]: 中国居民肥胖防治专家共识
+          - generic [ref=e56]:
+            - generic [ref=e59]:
+              - text: 中国营养学会肥胖防控分会
+              - img "查看更多作者信息" [ref=e60] [cursor=pointer]
+            - generic [ref=e63]:
+              - text: 中国营养学会临床营养分会
+              - img "查看更多作者信息" [ref=e64] [cursor=pointer]
+            - generic [ref=e67]:
+              - text: 中华预防医学会行为健康分会
+              - img "查看更多作者信息" [ref=e68] [cursor=pointer]
+            - generic [ref=e71]:
+              - text: 中华预防医学会体育运动与健康分会
+              - img "查看更多作者信息" [ref=e72] [cursor=pointer]
+          - generic [ref=e74] [cursor=pointer]:
+            - text: 作者及单位信息
+            - generic [ref=e75]: 
+          - generic [ref=e76]:
+            - generic [ref=e77]: 出版日期： 2022 -05 -10 ·
+            - generic [ref=e78]: DOI： 10.3760/cma.j.cn112338-20220402-00253
+          - generic [ref=e79]:
+            - generic [ref=e81]: Expert Consensus on Obesity Prevention and Treatment in China
+            - generic [ref=e82]:
+              - generic [ref=e85]: Chinese Nutrition Society Obesity Prevention and Control Section
+              - generic [ref=e88]: Chinese Nutrition Society Clinical Nutrition Section
+              - generic [ref=e91]: Chinese Preventive Medicine Association Behavioral Health Section
+              - generic [ref=e94]: Chinese Preventive Medicine Association Sports and Health Section
+              - generic [ref=e99]: Wang Youfa
+            - generic [ref=e101] [cursor=pointer]:
+              - text: Authors Info & Affiliations
+              - generic [ref=e102]: 
+            - generic [ref=e103]:
+              - generic [ref=e104]: Published： 2022 -05 -10 ·
+              - generic [ref=e105]: DOI： 10.3760/cma.j.cn112338-20220402-00253
+          - generic [ref=e106]:
+            - generic "阅读数：15052" [ref=e107]:
+              - generic [ref=e108]: 
+              - generic [ref=e109]: "15052"
+            - generic "下载数：5561" [ref=e110]:
+              - generic [ref=e111]: 
+              - generic [ref=e112]: "5561"
+            - generic "评论数：0" [ref=e113]:
+              - generic [ref=e114]: 
+              - generic [ref=e115]: "0"
+            - generic "点赞数：11" [ref=e116]:
+              - generic [ref=e117]: 
+              - generic [ref=e118]: "11"
+            - generic "收藏数：363" [ref=e119]:
+              - generic [ref=e120]: 
+              - generic [ref=e121]: "363"
+            - generic "分享数：57" [ref=e122]:
+              - generic [ref=e123]: 
+              - generic [ref=e124]: "57"
+          - generic [ref=e125]:
+            - generic [ref=e128] [cursor=pointer]: 
+            - generic [ref=e131] [cursor=pointer]: 
+            - generic [ref=e134] [cursor=pointer]: 
+            - generic [ref=e137] [cursor=pointer]: 
+            - generic [ref=e140] [cursor=pointer]: 
+            - generic [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]: 
+              - generic [ref=e144]: PDF下载
+            - text: 
+          - text:        
+        - generic [ref=e145]:
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: 摘要
+                - paragraph [ref=e152]: 肥胖及相关慢性病已成为中国及全球重大公共卫生问题。中国制定和实施了一系列相关防控政策和行动方案，但肥胖及相关慢性病问题尚未得到有效控制。在国内外最新相关指南和研究成果基础上，中国营养学会肥胖防控分会等机构邀请34位相关专家，经过多轮研究和会商，就当前和未来中国肥胖防治议题达成了《中国居民肥胖防治专家共识》，指导推动未来中国肥胖防治工作，促进全社会参与，助力“健康中国”建设。《共识》共包括7章，分别对中国肥胖流行状况和主要影响因素、面临的挑战、筛查和诊断、治疗、全生命周期防控、全社会参与综合防控策略进行总结，并提出科学建议，促进中国肥胖防治及体重管理工作更加科学、规范和有效。
+              - generic [ref=e153]:
+                - generic [ref=e154]: 关键词：
+                - generic [ref=e155] [cursor=pointer]: 超重;
+                - generic [ref=e156] [cursor=pointer]: 肥胖;
+                - generic [ref=e157] [cursor=pointer]: 慢性病;
+                - generic [ref=e158] [cursor=pointer]: 防治策略;
+                - generic [ref=e159] [cursor=pointer]: 专家共识
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - generic [ref=e162]: ABSTRACT
+                - paragraph [ref=e164]: Obesity and related chronic diseases have become major public health problems in China and in the world. While a series of prevention and control policies and action plans have been implemented in China, obesity and related chronic diseases have not been effectively controlled yet. The Obesity Prevention and Control Section of the Chinese Nutrition Society facilitated the cooperation of 34 interdisciplinary leading experts in drafting this consensus based on the latest relevant guidelines and research results in China and from overseas. The consensus report aims to help guide the prevention and treatment of obesity in China, promote the participation of the whole society and contribute to 'Healthy China' national goals. This report includes seven chapters. It outlines the prevalence and main contributing factors of obesity, challenges, obesity screening and diagnosis, treatment, prevention and control during the whole life cycle, comprehensive prevention and control strategies involving the whole society, and recommendations for future work in China. This report will help promote obesity prevention and weight management efforts in China to be more scientific and effective.
+              - generic [ref=e165]:
+                - generic [ref=e166]: KEYWORDS：
+                - generic [ref=e167] [cursor=pointer]: Overweight;
+                - generic [ref=e168] [cursor=pointer]: Obesity;
+                - generic [ref=e169] [cursor=pointer]: Chronic diseases;
+                - generic [ref=e170] [cursor=pointer]: Prevention and treatment strategies;
+                - generic [ref=e171] [cursor=pointer]: Expert consensus
+              - generic [ref=e173]:
+                - generic [ref=e174]: "Corresponding author:"
+                - text: "Wang Youfa, Email:"
+                - link "moc .l iamg@gnawafuoy" [ref=e175] [cursor=pointer]:
+                  - /url: mailto:youfawang@gmail.com
+                  - text: moc .l iamg
+                  - generic [ref=e176]: "@"
+                  - text: gnawafuoy
+              - generic [ref=e177]:
+                - generic [ref=e178]: "NOTES:"
+                - paragraph [ref=e180]: "Chinese Nutrition Society Obesity Prevention and Control Section, Chinese Nutrition Society Clinical Nutrition Section, Chinese Preventive Medicine Association Behavioral Health Section, et al. Expert Consensus on Obesity Prevention and Treatment in China[J]. Chin J Epidemiol, 2022, 43(5):609-626. DOI: 10.3760/cma.j.cn112338-20220402-00253."
+              - generic [ref=e181]:
+                - generic [ref=e182]: "COPYRIGHTS:"
+                - text: Copyright by Chinese Medical Association No content published by the journals of Chinese Medical Association may be reproduced or abridged without authorization. Please do not use or copy the layout and design of the journals without permission. All articles published represent the opinions of the authors, and do not reflect the official policy of the Chinese Medical Association or the Editorial Board, unless this is clearly specified.
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - generic [ref=e186]: 引用本文
+                - generic [ref=e187] [cursor=pointer]: 
+              - text: 
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: PERMISSIONS
+                - generic [ref=e191] [cursor=pointer]: 
+              - generic [ref=e192]:
+                - paragraph [ref=e193]: Request permissions for this article from CCC.
+                - button "© REQUEST PERMISSIONS" [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: ©
+                    - generic [ref=e197]: REQUEST PERMISSIONS
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - generic [ref=e200]: 评价本文
+                - generic [ref=e201] [cursor=pointer]: 
+              - generic [ref=e202]:
+                - slider [ref=e203]:
+                  - generic [ref=e205] [cursor=pointer]: 
+                  - generic [ref=e207] [cursor=pointer]: 
+                  - generic [ref=e209] [cursor=pointer]: 
+                  - generic [ref=e211] [cursor=pointer]: 
+                  - generic [ref=e213] [cursor=pointer]: 
+                - generic [ref=e214]:
+                  - button "确定" [ref=e215] [cursor=pointer]
+                  - button "放弃" [ref=e216] [cursor=pointer]
+                - generic [ref=e217]: "*以上评分为匿名评价"
+        - generic:  
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: 版权归中华医学会所有。
+            - paragraph [ref=e223]: 未经授权，不得转载、摘编本刊文章，不得使用本刊的版式设计。
+            - paragraph [ref=e224]: 除非特别声明，本刊刊出的所有文章不代表中华医学会和本刊编委会的观点。
+            - generic "关闭" [ref=e225] [cursor=pointer]: 
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - text: 近年来，心血管疾病、糖尿病、部分癌症等慢性非传染性疾病（“慢性病”）导致的死亡人数占中国居民总死亡人数的近90%，已成为中国乃至全球性的重大公共卫生问题，而超重和肥胖是慢性病的主要危险因素
+                - superscript [ref=e229]:
+                  - text: ［
+                  - link "1" [ref=e230] [cursor=pointer]:
+                    - /url: "#R1"
+                  - text: ］
+                - text: 。当前，中国50%以上的成年人和约20%的学龄儿童超重或肥胖，在部分城市中，儿童青少年超重、肥胖率已达40%
+                - superscript [ref=e231]:
+                  - text: ［
+                  - link "2" [ref=e232] [cursor=pointer]:
+                    - /url: "#R2"
+                  - text: ］
+                - text: 。在过去的20年间，中国超重率、肥胖率，以及相关慢性病的患病率迅速攀升
+                - superscript [ref=e233]:
+                  - text: ［
+                  - link "3" [ref=e234] [cursor=pointer]:
+                    - /url: "#R3"
+                  - text: ］
+                - text: 。随着社会经济的发展、人们生活水平的不断提高，生活方式也发生了重大变化，肥胖问题愈加凸显。自2000年以来，世界卫生组织（World Health Organization，WHO）呼吁各国采取有力措施遏制肥胖率的上升，尤其倡导要以儿童肥胖防控为着力点。中国制定和实施了一系列与肥胖防控相关的政策和策略，但肥胖及相关慢性病的问题尚未得到有效控制。
+              - generic [ref=e235]: 肥胖的科学有效防治对实现“健康中国2030”的目标至关重要。体重管理、肥胖预防和治疗工作亟需从多方位、多层次的政策、经济、环境、社会和行为因素等方面，采取多方位、多层次的综合措施。中国现有的肥胖防控相关的共识及指南大多仅针对超重/肥胖人群的治疗，对健康人群的体重管理和肥胖预防重视不够，未做到全人群、全方位、全生命周期覆盖，对肥胖防控应采取的综合措施也未达成全面共识。另外，近年来国际上涌现出诸多关于肥胖的研究，中国现有的共识和指南尚未全面纳入最新研究成果。
+              - generic [ref=e236]:
+                - text: 为推动全人群、全方位、全生命周期体重管理及肥胖防治工作，结合中国已经发布的相关指南及专家共识，包括2019年发布的《中国肥胖预防和控制蓝皮书》、中国营养学会肥胖防控分会2021年发布的《中国肥胖防控倡议书》、中国营养学会临床营养分会等机构2021年发布的《中国超重/肥胖医学营养治疗指南（2021）》、2021年中国专家在
+                - emphasis [ref=e237]: The Lancet Diabetes & Endocrinology
+                - text: 中发表的中国肥胖问题系列文章以及国内外其他最新的相关研究成果，并参考《WHO指南编写手册》等，根据循证医学规范，制定了《中国居民肥胖防治专家共识》（《专家共识》），旨在为中国肥胖防控工作提供科学、规范、易实施的操作技术、方法和流程，促进全社会参与，助力“健康中国2030”规划落实。
+              - generic [ref=e238]:
+                - text: 《专家共识》包括7章，分别对中国的肥胖流行状况、主要影响因素及挑战、筛查与诊断、全生命周期预防与控制、临床治疗管理、全社会参与综合防控策略进行总结并提出建议。见
+                - link "附录1" [ref=e239] [cursor=pointer]:
+                  - /url: "#ap1"
+                - text: 、
+                - link "附录2" [ref=e240] [cursor=pointer]:
+                  - /url: "#ap2"
+                - text: 。
+            - text:  
+          - generic [ref=e241]:
+            - generic [ref=e244]:
+              - generic [ref=e245]: 
+              - generic [ref=e246]: 试读结束，您可以通过登录机构账户或个人账户后获取全文阅读权限。
+            - generic [ref=e248]:
+              - generic [ref=e249]: 已是订阅账户?
+              - generic [ref=e250] [cursor=pointer]:
+                - text: 登录
+                - generic [ref=e251]: 
+        - generic [ref=e253]:
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "摘要" [ref=e261] [cursor=pointer]:
+                - /url: "#abstract_sec_main"
+            - listitem [ref=e262]:
+              - link "附录" [ref=e268] [cursor=pointer]:
+                - /url: "#ap1fl"
+            - listitem [ref=e269]:
+              - link "附录" [ref=e275] [cursor=pointer]:
+                - /url: "#ap2fl"
+            - listitem [ref=e276]:
+              - link "附录" [ref=e282] [cursor=pointer]:
+                - /url: "#ap3fl"
+            - listitem [ref=e283]:
+              - link "附录" [ref=e289] [cursor=pointer]:
+                - /url: "#ap4fl"
+            - listitem [ref=e290]:
+              - link "附录" [ref=e296] [cursor=pointer]:
+                - /url: "#ap5fl"
+            - listitem [ref=e297]:
+              - link "附录" [ref=e303] [cursor=pointer]:
+                - /url: "#ap6fl"
+            - listitem [ref=e304]:
+              - link "附录" [ref=e310] [cursor=pointer]:
+                - /url: "#ap7fl"
+            - listitem [ref=e311]:
+              - link "附录" [ref=e317] [cursor=pointer]:
+                - /url: "#ap8fl"
+            - listitem [ref=e318]:
+              - link "附录" [ref=e324] [cursor=pointer]:
+                - /url: "#ap9fl"
+            - listitem [ref=e325]:
+              - link "参考文献" [ref=e330] [cursor=pointer]:
+                - /url: "#ref_sec"
+          - text:  
+      - generic [ref=e331]:
+        - generic [ref=e334]:
+          - generic [ref=e335]: 附录
+          - generic [ref=e339]:
+            - generic [ref=e340]: 附录1《中国居民肥胖防治专家共识》制定方法
+            - paragraph [ref=e341]: （1）文献检索及相关资料收集：编写过程中，检索了自2000年以来发表的相关专家共识、指南和其他重要文献，确定二级和一级数据库。部分共识内容，例如关于肥胖防治部分，是根据国际证据分级与推荐（GRADE）强度分级，具有较好的可操作性。
+            - paragraph [ref=e342]: （2）专家咨询、访谈及研讨会：采用个人访谈、小组访谈及专家讨论会等多种形式，组织来自肥胖相关领域，例如，循证医学、公共卫生、临床医学、营养学、运动科学等领域的30余位权威专家，组成了多个工作组，例如，领导小组、文献查询组、临床组、运动组和审核组等，就共识内容进行了多次研讨，广泛深入地开展讨论，修订文稿，最终形成《专家共识》。
+          - generic [ref=e346]:
+            - generic [ref=e347]: 附录2《中国居民肥胖防治专家共识》旨在回答的主要问题
+            - paragraph [ref=e348]: （1）为什么肥胖防控很重要（肥胖的危害，中国肥胖疾病负担和未来趋势，为什么要编撰该专家共识）？
+            - paragraph [ref=e349]: （2）如何诊断超重和肥胖？
+            - paragraph [ref=e350]: （3）中国肥胖的主要影响因素及肥胖防控的主要挑战是什么？
+            - paragraph [ref=e351]: （4）怎样预防肥胖？
+            - paragraph [ref=e352]: （5）怎样治疗肥胖？
+            - paragraph [ref=e353]: （6）哪些人和机构需要参与肥胖防控及如何开展工作？
+          - generic [ref=e357]:
+            - generic [ref=e358]: 附录3 肥胖防控及有效政策措施的重要性
+            - paragraph [ref=e359]: （1）肥胖和相关慢性病已成为危害全球及中国民众健康的重大公共卫生问题。肥胖增加很多慢性病的风险，给个人、家庭和社会带来沉重负担。
+            - paragraph [ref=e360]: （2）近30年来，全世界范围超重/肥胖率呈现快速上升趋势。约40%的成年人和20%的儿童青少年超重或肥胖。中国是世界上超重和肥胖人数最多的国家，超过50%的成人和近20%的学龄儿童青少年超重或肥胖。肥胖防控是中国亟待解决的重大公共卫生问题。
+            - paragraph [ref=e361]: （3）研究预测，到2030年，中国成人中超重和肥胖患病率可能将达到65.3%，在儿童青少年（7~17岁）中将达到31.8%，在学龄前儿童（≤6岁）中将达到15.6%（WHO标准）。
+            - paragraph [ref=e362]: （4）研究预测，到2030年，中国归因于超重/肥胖的医疗费用保守估计将达4 180亿元人民币，约占全国医疗费用总额的21.5%。
+            - paragraph [ref=e363]: （5）世界卫生组织号召世界各国采取有力措施控制肥胖患病率上升，尤其要以儿童肥胖防控为着力点。
+            - paragraph [ref=e364]: （6）超重/肥胖率的增长如果不能有效遏制，将极大危害中国人民的健康水平，影响“健康中国2030”目标的实现。
+          - generic [ref=e368]:
+            - generic [ref=e369]: 附录4 全生命周期肥胖预防措施
+            - paragraph [ref=e370]: （1）婴幼儿童：①坚持母乳喂养，尽早开奶，按需哺乳，直接喂养，纯母乳喂养满6个月，在添加辅食同时母乳喂养持续到2岁。②适时适量添加辅食，提倡顺应性喂养。③保证足够时间和强度的身体活动，增强肌肉和骨骼健康的锻炼。④保持每天规律、充足睡眠，达到至少11小时高质量睡眠。
+            - paragraph [ref=e371]: （2）学龄儿童青少年：①按时、规律进餐，避免不吃早餐和白天不断加餐，三餐达到蛋白质、碳水化合物和脂肪摄入均衡，进食速度不宜过快。②避免含糖饮料，避免高能量、高脂肪或高钠加工食品，控制能量高的油炸食物及零食，禁止饮酒。③多吃蔬菜和水果，增加膳食纤维摄入。④保证足够时间和强度的身体活动，减少静坐和电子产品屏幕暴露时间。⑤培养健康的睡眠方式，保持充足、规律睡眠时间。⑥定期监测体质健康指标，卫生服务人员积极筛查儿童肥胖及相关危险因素，及早进行肥胖干预。⑦积极开展针对儿童青少年、其父母和学校相关人员的合理膳食和身体活动教育，鼓励学校提供健康饮食知识教育。⑧强化中小学每年的学生体检工作，包括质量控制和及时通知学生和家长体检结果（包括身高、体重、BMI和是否超重或者肥胖）。⑨家长要树立健康生活方式典范，营造良好家庭运动氛围，帮助儿童养成健康生活方式和习惯。⑩对含糖饮料采取有效增加税收政策，添加食品包装的营养标签。11禁止广告和媒体向儿童宣传不健康食品和饮料。12关注贫困地区儿童和青少年的营养状况，尤其是留守儿童。
+            - paragraph [ref=e372]: （3）成年人：①合理膳食，吃动平衡。②少油少盐控糖，戒烟戒酒。③减少食用快餐食品，减少在外就餐及外卖点餐。④每周保证足够身体活动时间，避免熬夜和久坐。⑤积极开展健康教育，建设公共运动设施和场地、健身步道。在工作场所提倡利用碎片化时间进行锻炼，减少久坐。⑥定期体重自测和健康检查，做好体重管理。
+            - paragraph [ref=e373]: （4）老年人：①控制总能量摄入，少量多次用餐。②多吃蔬菜、水果、杂粮等食物。③控制脂肪摄入，多吃鱼肉等高蛋白低脂肪的食物，避免摄入过多动物脂肪。④多饮水，戒烟戒酒，适量补充营养素。⑤选择适宜的运动方式，坚持规律、适量运动。（5）孕前、孕期妇女：①定期监测孕期体重变化，根据孕前BMI维持孕期适宜体重。②孕期平衡膳食，控制总能量摄入，进行适宜的身体活动。③规范妊娠期糖尿病和妊娠期高血压的诊断和管理，早发现早治疗。④避免接触烟草、酒精、麻醉品和有毒物质。⑤倡导自然分娩，控制选择性剖宫产率。
+            - paragraph [ref=e374]: （6）哺乳期妇女:①倡导坚持母乳喂养。②少食多餐，多吃低能量的食物，保障充足蛋白质和维生素的摄入。③保证规律作息时间和充足的睡眠。
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - text: 附录5 儿童青少年肥胖防控的“52110”日常行动建议
+              - superscript [ref=e380]:
+                - text: ［
+                - link "32" [ref=e381] [cursor=pointer]:
+                  - /url: "#R32"
+                - text: ］
+            - paragraph [ref=e382]: 5：每天吃5个成年人拳头大小的蔬菜和水果。
+            - paragraph [ref=e383]: 2：每天使用电脑玩游戏、看电视、玩手机等静态活动时间（不包括上课时间）不超过2小时。
+            - paragraph [ref=e384]: 1：每天进行1小时以上中、高强度身体活动。
+            - paragraph [ref=e385]: 1：每天吃肉不超过1份（1个普通成年人手掌心大小）。
+            - paragraph [ref=e386]: 0：不喝含糖饮料。
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - text: 附录6 健康体重管理及肥胖防控的膳食建议
+              - superscript [ref=e392]:
+                - text: ［
+                - link "50" [ref=e393] [cursor=pointer]:
+                  - /url: "#R50"
+                - text: ","
+                - link "51" [ref=e394] [cursor=pointer]:
+                  - /url: "#R51"
+                - text: ","
+                - link "52" [ref=e395] [cursor=pointer]:
+                  - /url: "#R52"
+                - text: ］
+            - paragraph [ref=e396]: （1）保证膳食能量来源和营养素充足，三餐合理。
+            - paragraph [ref=e397]: • 碳水化合物、蛋白质、脂肪比例、微量营养素摄入量保持在合理水平。
+            - paragraph [ref=e398]: • 食不过量，达到能量平衡或负平衡，维持健康体重。
+            - paragraph [ref=e399]: （2）保持以植物性食物为主的平衡膳食结构
+            - paragraph [ref=e400]: • 增加全谷物消费，减少精白米面摄入。
+            - paragraph [ref=e401]: • 在保证充足蔬菜摄入的前提下，增加深色蔬菜摄入。
+            - paragraph [ref=e402]: • 增加富含优质蛋白质的豆类及其制品摄入。
+            - paragraph [ref=e403]: • 增加新鲜水果摄入。
+            - paragraph [ref=e404]: （3）优化动物性食物消费结构
+            - paragraph [ref=e405]: • 改变较为单一的、以猪肉为主的消费结构。
+            - paragraph [ref=e406]: • 增加富含不饱和脂肪酸的水产品类、低脂或脱脂奶类及其制品的摄入。
+            - paragraph [ref=e407]: • 适量摄入蛋类及其制品。
+            - paragraph [ref=e408]: （4）控制油、盐、糖和酒精等摄入
+            - paragraph [ref=e409]: • 成人每天食盐不超过5 g，烹饪油不超过25~30 g，添加糖摄入不超过50 g，最好控制在25 g以下。
+            - paragraph [ref=e410]: • 戒烟戒酒。
+            - paragraph [ref=e411]: • 少吃高盐和油炸食品，减少含糖饮料，鼓励足量饮水。
+          - generic [ref=e415]:
+            - generic [ref=e416]: 附录7 中国肥胖防治行动建议15条（2022年）
+            - paragraph [ref=e417]: 面向全社会，包括政府、医疗卫生机构、学校、家庭和个人、各类工作场所等提出以下5方面的15条肥胖防治行动建议：
+            - paragraph [ref=e418]: 一、动员全社会参与，倡导健康生活方式。
+            - paragraph [ref=e419]: 1. 明确各方责任，倡导支持健康生活方式，全社会参与肥胖防控工作。各级政府、机构均应出台肥胖防控支持性政策，加大政策倡导力度。建立多部门跨领域的肥胖防控合作机制，由政府主导，医疗卫生机构、学校、各类工作场所、媒体、产业界、研究机构、家庭和个人共同参与，推动多部门跨领域行动。
+            - paragraph [ref=e420]: 2. 加强公众健康教育，普及健康体重相关知识，提高全民健康素养。利用学校、企事业单位、社区和媒体加强对儿童、成人居民、专业机构工作人员及食品生产经营者的健康教育，提高全民对肥胖危害、影响因素及防治措施的知晓程度。
+            - paragraph [ref=e421]: 3. 吃动两平衡，定期测量体重及腰围，保持健康体重。学习中国居民膳食指南和营养知识。利用创新科普宣传方式，促进居民增强健康生活方式的形成，提高体重管理的知识技能。
+            - paragraph [ref=e422]: 二、创建健康支持环境，促进全民健康膳食。
+            - paragraph [ref=e423]: 4. 完善政策体系，创建健康食物消费环境。推进完善相关法律法规，对含糖饮料采取有效的税收政策，强化食物营销管理，禁止不科学、不健康的食品广告，全面推行营养标签制度、健康食堂和健康餐厅，提升健康食品的可及性。
+            - paragraph [ref=e424]: 5. 改善膳食结构，养成科学饮食行为。保证食物多样化，营养素摄入充足。增加全谷物、深色蔬菜和新鲜水果消费，增加豆类及其制品、低脂奶类及其制品、水产品类摄入。减少煎、炸等烹调方式，控制油、盐、糖摄入。少喝含糖饮料，减少外出就餐。食不过量，达到能量平衡。
+            - paragraph [ref=e425]: 三、营造全民健身氛围，加强身体活动。
+            - paragraph [ref=e426]: 6. 完善公共体育设施，营造全民健身氛围。加强社区、学校、工作场所等的健身场所建设和利用率，增加健身步道、骑行道、体育公园和多功能运动场地的建设，营造良好的全民健身氛围。
+            - paragraph [ref=e427]: 7. 增加日常身体活动，积极参加体育锻炼，减少久坐行为。倡导各年龄段人群每天运动，遵循循序渐进原则，每天1万步或每周进行至少150 min的中或高等强度有氧运动和户外活动等。减少静态行为，特别是屏幕前的持续久坐行为。
+            - paragraph [ref=e428]: 四、开展全生命周期肥胖防治，关注重点人群。
+            - paragraph [ref=e429]: 8. 关注生命早期1 000天，促进生命早期膳食营养和身体活动。加强对孕前和孕期健康指导，改善准父母的健康饮食和身体活动，避免接触烟草、酒精、麻醉品和有毒物质。促进孕前及孕期维持适宜体重。规范妊娠期糖尿病和高血压的诊断和管理，早发现早治疗。提供支持母乳喂养的环境和政策，鼓励6个月纯母乳喂养，适时适量添加辅食。定期评价婴幼儿生长发育状况。
+            - paragraph [ref=e430]: 9. 促进儿童青少年的膳食营养和身体活动。开设健康教育课程，帮助儿童养成健康的饮食行为。保障幼儿园和学校健康餐厅建设和健康食物及安全饮用水的供给，避免提供高糖、高盐和高脂等食物。积极引导儿童进行户外活动和体育锻炼，保持充足规律的睡眠时间。做好儿童青少年体重和生长发育监测。关注肥胖儿童的心理健康。
+            - paragraph [ref=e431]: 10. 促进老年人群膳食营养和身体活动。维持能量摄入与消耗的平衡，以优质蛋白质为主，避免脂肪过量摄入，荤素合理搭配，维持健康体重。选择适宜强度的运动方式，多做户外活动，坚持每天进行适量身体活动。
+            - paragraph [ref=e432]: 五、优化健康体重管理，完善肥胖防控服务体系。
+            - paragraph [ref=e433]: 11. 规范肥胖综合诊治，提供个性化服务。制定适用于医疗卫生服务机构的肥胖诊疗技术指南，鼓励医院开展肥胖危险因素筛查与干预，规范营养、运动、药物和手术治疗，加强精神-心理支持，实现精准化治疗。
+            - paragraph [ref=e434]: 12. 将肥胖防治纳入基本公共卫生服务项目。将体重管理和肥胖防控作为基层卫生服务机构工作职能，使临床治疗、社区干预及自我体重管理有效衔接。将肥胖的评估和干预纳入家庭医生签约服务内容，并配备专门人员提供体重管理服务。
+            - paragraph [ref=e435]: 13. 建立和完善全生命周期体重管理监测体系。结合智慧医疗、可穿戴设备等现代信息技术，加强对全生命周期体重管理的监测评估，完善肥胖筛查、预警、干预流程及服务实施体系。
+            - paragraph [ref=e436]: 14. 加强肥胖防控人才培养，扩大专业服务队伍。完善肥胖防控人才培养体系，培育建设专业人才队伍，为医护人员、中小学和幼儿教师提供继续教育培训，帮助提升肥胖防控能力。
+            - paragraph [ref=e437]: 15. 加强相关科学研究与国际交流。大力支持推动跨学科、多层面、依托新科技和大数据的肥胖防控系统研究，加强肥胖环境危险因素及防治有效实施措施的研究，推动肥胖监测、管理及评价体系包括国家和地方相关政策法规的完善，开展基于幼儿园、学校、工作场所、公共场所等的干预行动。加强国际交流合作。
+          - generic [ref=e441]:
+            - generic [ref=e442]:
+              - text: 附录8 促进中国居民健康体重管理和肥胖防控工作的针对主要相关机构和个人的行动建议
+              - superscript [ref=e443]:
+                - text: ［
+                - link "2" [ref=e444] [cursor=pointer]:
+                  - /url: "#R2"
+                - text: ］
+            - paragraph [ref=e445]: （1）政府机构：①强化政府责任，将肥胖防控工作纳入政府工作计划。②推动农业、食品工业、运动产业、商业、研究、社区等多层次、跨领域肥胖防控合作机制，明确各方职责。③推进相关政策法规的制定、完善、实施和评估，例如《广告法》等。④加强支持性环境建设，如：建设健康人行道、自行车道、公共体育场所等基础设施，完善城市规划，鼓励使用公共交通工具。⑤促进母乳喂养支持性环境建设，推动全面落实产假制度，鼓励有条件的公共场所和工作单位建立母婴室。⑥制定并完善相关部门规章制度，对高糖、高脂、高盐食品要加强食品标签管理。⑦改革医疗保险政策，保障肥胖防治。⑧加强对居民体重管理和肥胖防治的监测和监管。
+            - paragraph [ref=e446]: （2）个人和家庭：①养成健康的生活方式，注重平衡膳食和适量运动。②保持健康体重。③提高营养健康素养，养成科学饮食行为。④保证食物多样化，减少煎、炸等烹调方式。⑤控制油、盐、糖的使用量，减少在外就餐。⑥营造良好的家庭运动氛围，培养积极的身体活动习惯。⑦充分认识超重/肥胖的危害，做好体重及儿童青少年生长发育监测。
+            - paragraph [ref=e447]: （3）新闻媒体：①加强公众对肥胖带来的健康风险的认识。②使用多种形式的传媒载体，广泛宣传中国居民膳食指南、身体活动指南、肥胖预防与控制指南等健康相关知识。③向全社会普及科学的运动、营养、体重管理及良好的生活方式等健康理念，促进健康中国实现。④强化食物营销管理，规范母乳代用品广告宣传，限制含大量糖、反式脂肪酸、饱和脂肪酸等不健康食品的宣传。不鼓励针对儿童的营销，如：食品包装中使用吸引儿童的图片、描述和外形设计。
+            - paragraph [ref=e448]: （4）卫生服务机构：①在全生命周期及健康管理过程中，开展肥胖综合诊治，提供个性化服务。②制定标准化肥胖医疗卫生服务指南，鼓励医院开展体重管理诊疗，规范营养、运动和手术治疗。③融合临床和公共卫生服务，将体重管理纳入社区卫生服务中心工作职能，促进肥胖患者临床治疗、社区及自我体重管理有效衔接。④将肥胖的评估和干预纳入家庭医生和地方疾控中心系统服务项目中。⑤将肥胖治疗纳入健康保险范围，并将肥胖患者的医疗报销比例与其体重管理结果相关联。⑥要求社区、地区和区域各级医院和医疗中心设置专项和专人以提供体重管理服务。⑦将现代科学技术如智慧医疗、可穿戴设备运用到体重管理和肥胖诊治中。
+            - paragraph [ref=e449]: （5）学校：①将膳食营养和身体活动等健康教育知识融入幼儿园、中小学的常规教育中，从小培养学生健康意识，提升健康素养。②在国家和地方各级教师培训中，增加青少年膳食营养和身体活动等相关知识内容，提高教师专业素养和健康教育指导能力。③制定和修订幼儿园、中小学供餐指南，培训学校和供餐单位餐饮从业人员，改善学校食物供给。④发挥营养午餐的作用，优化学生餐膳食结构，改善烹调方式，保证新鲜蔬菜水果、粗杂粮及适量鱼禽肉蛋奶等供应。⑤禁止在学校内出售零食和含糖饮料，避免提供高糖、高脂、高盐等食物。⑥按规定提供充足的符合国家标准的饮用水。⑦强化体育课和课外锻炼，保证学生充足的身体活动时间。⑧学校医务室按规定配备卫生专业技术人员和设施。
+            - paragraph [ref=e450]: （6）社区：①加强社区支持，对家庭、社区食堂和餐饮单位开展膳食营养和身体活动的咨询和指导。②加强建设社区活动场所、健身步道、骑行道、体育公园和多功能运动场地的建设。③发放宣传资料，组织科普讲座，提高居民的实践操作能力，践行健康生活方式。
+            - paragraph [ref=e451]: （7）学术机构：①完善肥胖防控人才培养体系，培育建设专业人才队伍。②为医护人员、中小学和幼儿教师提供继续教育培训，提升肥胖防控能力。③积极开展跨学科研究，推进肥胖防控政策研究和干预应用研究。④加强国际交流合作。
+            - paragraph [ref=e452]: （8）企业：①支持食品行业生产健康食品，禁止供应高糖、高脂食品，改进油、盐、糖产品的包装标签。②创建营养食堂，提供健身设施，为员工提供定期开展健康检查、咨询和科普。
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - text: 附录9《中国肥胖防控倡议书》（2021年，西安）
+              - superscript [ref=e458]:
+                - text: ［
+                - link "53" [ref=e459] [cursor=pointer]:
+                  - /url: "#R53"
+                - text: ］
+            - paragraph [ref=e460]: 肥胖和相关慢性病是危害全球健康的重大公共卫生问题，近40%的成年人和20%的儿童青少年超重和肥胖。中国是世界上超重和肥胖人数最多的国家，超过50%的成年人和近20%的儿童青少年超重和肥胖。预防控制肥胖，减少肥胖的健康危害，已经迫在眉睫。
+            - paragraph [ref=e461]: 肥胖防控工作将有利于很多慢性病的防控。合理膳食和适量运动是肥胖防控的重要手段。根据2030联合国可持续发展目标、《健康中国2030规划纲要》和《中国肥胖预防与控制蓝皮书》，在中国营养学会肥胖防控分会成立之际，在古“丝绸之路”和“一带一路”的起点城市——西安，我们发布《中国肥胖防控倡议书》。向全社会，包括政府、医疗卫生机构、学校、各类工作场所、媒体、产业界、研究机构、家庭和个人，我们发出十点呼吁：
+            - paragraph [ref=e462]: 1. 动员全社会：各级党委政府动员全社会，特别是宣传、广电、发改、财政、市场监督、卫生健康、教育、体育、药品监督、城建等部门，加强对肥胖及其危险因素的管理，引起全社会对肥胖问题的重视，遏制肥胖和相关慢性病增长。
+            - paragraph [ref=e463]: 2. 推动多部门跨领域行动：强化政府责任，将肥胖防控列入政府工作计划；推动多层次、跨领域肥胖防控合作；引导农业、食品工业、运动产业、商业、科学研究、社区建设积极适应肥胖防控需求，促进政产学研一体化。
+            - paragraph [ref=e464]: 3. 改善致肥胖环境：改善导致肥胖的食品饮料环境、身体活动环境、社会环境、信息网络环境和文化环境，创造安全、健康和支持性的社区、学校和家庭环境，促进全人群全生命周期健康。
+            - paragraph [ref=e465]: 4. 倡导健康生活方式：个人、家庭、社区、学校、单位、专业机构共同努力，全面预防和控制肥胖及相关慢性病。加强对儿童、成人、机构工作人员及食品生产经营者的健康教育。向全社会普及科学、正确的健康、营养、健康体重理念和生活方式，帮助民众合理膳食、适量运动，实施健康体重管理。
+            - paragraph [ref=e466]: 5. 推动儿童肥胖防控：学校引进专业师资，开设健康教育课程；社会舆论引导教育儿童及其家庭合理膳食、科学运动；家长给儿童树立健康生活的榜样，引导儿童吃动平衡；以儿童肥胖为着力点，推进全民肥胖防控。
+            - paragraph [ref=e467]: 6. 规范肥胖诊治：在全生命周期及健康管理过程，开展肥胖综合诊治，提供个性化服务；制定标准化医疗卫生服务指南，规范实践；融合临床和公共卫生服务，促进肥胖患者临床治疗、社区及自我体重管理有效衔接；改革医疗保险政策，保障肥胖防治。
+            - paragraph [ref=e468]: 7. 加强肥胖防控人才培养：完善肥胖防控人才培养体系，培育建设专业人才队伍。学术机构为医护人员、中小学和幼儿教师提供继续教育培训，帮助提升肥胖防控能力。
+            - paragraph [ref=e469]: 8. 完善政策体系和评价机制：推进相关政策法规的制定、完善、实施和评估，例如制定完善实施《食育法》、《营养师法》、《广告法》等。加强对相关部门开展肥胖防控工作的指导和工作效果的评价。
+            - paragraph [ref=e470]: 9. 开展跨学科研究：大力支持跨学科、多层面、依托大数据的肥胖防控系统研究；开展推广基于学校及工作场所的有效干预项目；加强肥胖环境危险因素研究；推动肥胖监测、管理及评价体系的完善；加强结果和影响评价研究；支持推进政策研究和干预应用研究；推动研究成果落地。
+            - paragraph [ref=e471]: 10. 加强国际交流合作：政府、学界、社会团体各领域积极推进国际交流合作，深化与“一带一路”沿线国家的交流与合作；学习其他国家肥胖防控经验，传播分享中国智慧和成功模式，贡献中国力量。
+            - paragraph [ref=e472]: 健康是个人发展和家庭幸福的基础，是民族昌盛和国家富强的重要标志。让我们共同努力，积极防控超重/肥胖，为全民健康和建设“健康中国”贡献力量！
+        - generic [ref=e475]:
+          - generic [ref=e476]: 参考文献
+          - generic [ref=e477]:
+            - generic [ref=e479]:
+              - generic [ref=e480]: "[1]"
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - generic [ref=e483]:
+                    - generic [ref=e484]:
+                      - generic [ref=e485]: 王友发
+                      - text: ","
+                      - generic [ref=e486]: 孙明晓
+                      - text: ","
+                      - generic [ref=e487]: 杨月欣
+                      - text: ",等"
+                    - text: . 中国肥胖预防和控制蓝皮书[M]. 北京:北京大学医学出版社, 2019.
+                  - link " 返回引文位置" [ref=e489] [cursor=pointer]:
+                    - /url: "#R1B"
+                    - generic [ref=e490]: 
+                    - text: 返回引文位置
+                - generic [ref=e491]:
+                  - generic [ref=e492]:
+                    - generic [ref=e493]:
+                      - generic [ref=e495]: Wang YF
+                      - text: ","
+                      - generic [ref=e497]: Sun MX
+                      - text: ","
+                      - generic [ref=e499]: Yang YX
+                      - text: ",et al"
+                    - text: . China blue paper on obesity prevention and control[M]. Beijing:Peking University Medical Press, 2019.
+                  - link " Goto Citation" [ref=e501] [cursor=pointer]:
+                    - /url: "#R1B"
+                    - generic [ref=e502]: 
+                    - text: Goto Citation
+            - generic [ref=e504]:
+              - generic [ref=e505]: "[2]"
+              - generic [ref=e507]:
+                - generic [ref=e508]:
+                  - generic [ref=e509]:
+                    - generic [ref=e511]: Wang Y
+                    - text: ","
+                    - generic [ref=e513]: Zhao L
+                    - text: ","
+                    - generic [ref=e515]: Gao L
+                    - text: ",et al"
+                  - text: . Health policy and public health implications of obesity in China[J]. Lancet Diabetes Endocrinol, 2021,9(7):446-461.
+                  - generic [ref=e516]:
+                    - text: "DOI:"
+                    - link "10.1016/S2213-8587(21)00118-2" [ref=e518] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S2213-8587(21)00118-2
+                  - text: .
+                - generic [ref=e519]:
+                  - link " 返回引文位置" [ref=e520] [cursor=pointer]:
+                    - /url: "#R2B"
+                    - generic [ref=e521]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e525]:
+              - generic [ref=e526]: "[3]"
+              - generic [ref=e528]:
+                - generic [ref=e529]:
+                  - generic [ref=e530]:
+                    - generic [ref=e532]: Wang L
+                    - text: ","
+                    - generic [ref=e534]: Zhou B
+                    - text: ","
+                    - generic [ref=e536]: Zhao Z
+                    - text: ",et al"
+                  - text: . Body-mass index and obesity in urban and rural China:findings from consecutive nationally representative surveys during 2004-18[J]. Lancet, 2021,398(10294):53-63.
+                  - generic [ref=e537]:
+                    - text: "DOI:"
+                    - link "10.1016/S0140-6736(21)00798-4" [ref=e539] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S0140-6736(21)00798-4
+                  - text: .
+                - generic [ref=e540]:
+                  - link " 返回引文位置" [ref=e541] [cursor=pointer]:
+                    - /url: "#R3B"
+                    - generic [ref=e542]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e546]:
+              - generic [ref=e547]: "[4]"
+              - generic [ref=e549]:
+                - generic [ref=e550]:
+                  - generic [ref=e551]:
+                    - generic [ref=e553]: Wang Y
+                    - text: ","
+                    - generic [ref=e555]: Xue H
+                    - text: ","
+                    - generic [ref=e557]: Sun M
+                    - text: ",et al"
+                  - text: . Prevention and control of obesity in China[J]. Lancet Glob Health, 2019,7(9):e1166-e1167.
+                  - generic [ref=e558]:
+                    - text: "DOI:"
+                    - link "10.1016/S2214-109X(19)30276-1" [ref=e560] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S2214-109X(19)30276-1
+                  - text: .
+                - generic [ref=e561]:
+                  - link " 返回引文位置" [ref=e562] [cursor=pointer]:
+                    - /url: "#R4B"
+                    - generic [ref=e563]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e567]:
+              - generic [ref=e568]: "[5]"
+              - generic [ref=e570]:
+                - generic [ref=e571]:
+                  - generic [ref=e572]:
+                    - generic [ref=e574]: Wang Y
+                    - text: ","
+                    - generic [ref=e576]: Mi J
+                    - text: ","
+                    - generic [ref=e578]: Shan X Y
+                    - text: ",et al"
+                  - text: . Is China facing an obesity epidemic and the consequences? The trends in obesity and chronic disease in China[J]. Int J Obes (Lond), 2007,31(1):177-188.
+                  - generic [ref=e579]:
+                    - text: "DOI:"
+                    - link "10.1038/sj.ijo.0803354" [ref=e581] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1038/sj.ijo.0803354
+                  - text: .
+                - generic [ref=e582]:
+                  - link " 返回引文位置" [ref=e583] [cursor=pointer]:
+                    - /url: "#R5B"
+                    - generic [ref=e584]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e588]:
+              - generic [ref=e589]: "[6]"
+              - generic [ref=e590]:
+                - generic [ref=e591]:
+                  - generic [ref=e592]:
+                    - generic [ref=e593]:
+                      - generic [ref=e594]: 马冠生
+                      - text: ","
+                      - generic [ref=e595]: 李艳平
+                      - text: ","
+                      - generic [ref=e596]: 武阳丰
+                      - text: ",等"
+                    - text: . 1992至2002年间中国居民超重率和肥胖率的变化[J]. 中华预防医学杂志, 2005,39(5):311-315.
+                    - generic [ref=e597]:
+                      - text: "DOI:"
+                      - link "10.3760/j:issn:0253-9624.2005.05.005" [ref=e599] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3760/j:issn:0253-9624.2005.05.005
+                    - text: .
+                  - generic [ref=e600]:
+                    - link " 返回引文位置" [ref=e601] [cursor=pointer]:
+                      - /url: "#R6B"
+                      - generic [ref=e602]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e605]:
+                  - generic [ref=e606]:
+                    - generic [ref=e607]:
+                      - generic [ref=e609]: Ma GS
+                      - text: ","
+                      - generic [ref=e611]: Li YP
+                      - text: ","
+                      - generic [ref=e613]: Wu YF
+                      - text: ",et al"
+                    - text: . The prevalence of body overweight and obesity and its changes among Chinese people during 1992 to 2002[J]. Chin J Prev Med, 2005,39(5):311-315.
+                    - generic [ref=e614]:
+                      - text: "DOI:"
+                      - link "10.3760/j:issn:0253-9624.2005.05.005" [ref=e616] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3760/j:issn:0253-9624.2005.05.005
+                    - text: .
+                  - generic [ref=e617]:
+                    - link " Goto Citation" [ref=e618] [cursor=pointer]:
+                      - /url: "#R6B"
+                      - generic [ref=e619]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e623]:
+              - generic [ref=e624]: "[7]"
+              - generic [ref=e625]:
+                - generic [ref=e626]:
+                  - generic [ref=e627]:
+                    - generic [ref=e628]: 国家卫生健康委
+                    - text: . 中国居民营养与慢性病状况报告(2020年)[M]. 北京:人民卫生出版社, 2021.
+                  - link " 返回引文位置" [ref=e630] [cursor=pointer]:
+                    - /url: "#R7B"
+                    - generic [ref=e631]: 
+                    - text: 返回引文位置
+                - generic [ref=e632]:
+                  - generic [ref=e633]:
+                    - generic [ref=e634]: National Health Commission of the People's Republic of China
+                    - text: . Report on Chinese residents' chronic diseases and nutrition (2020)[M]. Beijing:People's Medical Publishing House, 2021.
+                  - link " Goto Citation" [ref=e636] [cursor=pointer]:
+                    - /url: "#R7B"
+                    - generic [ref=e637]: 
+                    - text: Goto Citation
+            - generic [ref=e639]:
+              - generic [ref=e640]: "[8]"
+              - generic [ref=e642]:
+                - generic [ref=e643]:
+                  - generic [ref=e644]:
+                    - generic [ref=e646]: Chen Z
+                    - text: ","
+                    - generic [ref=e648]: Iona A
+                    - text: ","
+                    - generic [ref=e650]: Parish S
+                    - text: ",et al"
+                  - text: . Adiposity and risk of ischaemic and haemorrhagic stroke in 0.5 million Chinese men and women:a prospective cohort study[J]. Lancet Glob Health, 2018,6(6):e630-640.
+                  - generic [ref=e651]:
+                    - text: "DOI:"
+                    - link "10.1016/S2214-109X(18)30216-X" [ref=e653] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S2214-109X(18)30216-X
+                  - text: .
+                - generic [ref=e654]:
+                  - link " 返回引文位置" [ref=e655] [cursor=pointer]:
+                    - /url: "#R8B"
+                    - generic [ref=e656]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e660]:
+              - generic [ref=e661]: "[9]"
+              - generic [ref=e662]:
+                - generic [ref=e663]:
+                  - generic [ref=e664]:
+                    - generic [ref=e665]: 中华人民共和国国家卫生和计划生育委员会
+                    - text: . WS/T 428-2013成人体重判定[S]. 2013.
+                  - link " 返回引文位置" [ref=e667] [cursor=pointer]:
+                    - /url: "#R9B"
+                    - generic [ref=e668]: 
+                    - text: 返回引文位置
+                - generic [ref=e669]:
+                  - generic [ref=e670]:
+                    - generic [ref=e671]: National Health and Family Planning Commission of People's Republic of China
+                    - text: . WS/T 428-2013Criteria of weight for adults[S]. 2013.
+                  - link " Goto Citation" [ref=e673] [cursor=pointer]:
+                    - /url: "#R9B"
+                    - generic [ref=e674]: 
+                    - text: Goto Citation
+            - generic [ref=e676]:
+              - generic [ref=e677]: "[10]"
+              - generic [ref=e679]:
+                - generic [ref=e680]:
+                  - generic [ref=e681]:
+                    - generic [ref=e683]: Bao Y
+                    - text: ","
+                    - generic [ref=e685]: Lu J
+                    - text: ","
+                    - generic [ref=e687]: Wang C
+                    - text: ",et al"
+                  - text: . Optimal waist circumference cutoffs for abdominal obesity in Chinese[J]. Atherosclerosis, 2008,201(2):378-384.
+                  - generic [ref=e688]:
+                    - text: "DOI:"
+                    - link "10.1016/j.atherosclerosis.2008.03.001" [ref=e690] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/j.atherosclerosis.2008.03.001
+                  - text: .
+                - generic [ref=e691]:
+                  - link " 返回引文位置" [ref=e692] [cursor=pointer]:
+                    - /url: "#R10B"
+                    - generic [ref=e693]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e697]:
+              - generic [ref=e698]: "[11]"
+              - generic [ref=e699]:
+                - generic [ref=e700]:
+                  - generic [ref=e701]:
+                    - generic [ref=e702]: 中国肥胖问题工作组
+                    - text: . 中国学龄儿童青少年超重、肥胖筛查体重指数值分类标准[J]. 中华流行病学杂志, 2004,25(2):97-102.
+                    - generic [ref=e703]:
+                      - text: "DOI:"
+                      - link "10.3760/j.issn:0254-6450.2004.02.003" [ref=e705] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3760/j.issn:0254-6450.2004.02.003
+                    - text: .
+                  - generic [ref=e706]:
+                    - link " 返回引文位置" [ref=e707] [cursor=pointer]:
+                      - /url: "#R11B"
+                      - generic [ref=e708]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e711]:
+                  - generic [ref=e712]:
+                    - generic [ref=e713]: Group of China Obesity Task Force
+                    - text: . Body mass index reference norm for screening overweight and obesity in Chinese children and adolescents[J]. Chin J Epidemiol, 2004,25(2):97-102.
+                    - generic [ref=e714]:
+                      - text: "DOI:"
+                      - link "10.3760/j.issn:0254-6450.2004.02.003" [ref=e716] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3760/j.issn:0254-6450.2004.02.003
+                    - text: .
+                  - generic [ref=e717]:
+                    - link " Goto Citation" [ref=e718] [cursor=pointer]:
+                      - /url: "#R11B"
+                      - generic [ref=e719]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e723]:
+              - generic [ref=e724]: "[12]"
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]:
+                    - generic [ref=e728]: 中华人民共和国国家卫生和计划生育委员会
+                    - text: . WS/T 586-2018学龄儿童青少年超重与肥胖筛查[S]. 2018.
+                  - link " 返回引文位置" [ref=e730] [cursor=pointer]:
+                    - /url: "#R12B"
+                    - generic [ref=e731]: 
+                    - text: 返回引文位置
+                - generic [ref=e732]:
+                  - generic [ref=e733]:
+                    - generic [ref=e734]: National Health and Family Planning Commission of People's Republic of China
+                    - text: . WS/T 586-2018Screening of overweight and obesity among school-age children and adolescents[S]. 2018.
+                  - link " Goto Citation" [ref=e736] [cursor=pointer]:
+                    - /url: "#R12B"
+                    - generic [ref=e737]: 
+                    - text: Goto Citation
+            - generic [ref=e739]:
+              - generic [ref=e740]: "[13]"
+              - generic [ref=e742]:
+                - generic [ref=e743]:
+                  - generic [ref=e744]:
+                    - generic [ref=e746]: deOnis M
+                    - text: ","
+                    - generic [ref=e748]: Onyango AW
+                    - text: ","
+                    - generic [ref=e750]: Borghi E
+                    - text: ",et al"
+                  - text: . Development of a WHO growth reference for school-aged children and adolescents[J]. Bull World Health Organ, 2007,85(9):660-667.
+                  - generic [ref=e751]:
+                    - text: "DOI:"
+                    - link "10.2471/blt.07.043497" [ref=e753] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.2471/blt.07.043497
+                  - text: .
+                - generic [ref=e754]:
+                  - link " 返回引文位置" [ref=e755] [cursor=pointer]:
+                    - /url: "#R13B"
+                    - generic [ref=e756]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e760]:
+              - generic [ref=e761]: "[14]"
+              - generic [ref=e763]:
+                - generic [ref=e764]:
+                  - generic [ref=e765]: WHO
+                  - text: . WHO child growth standards:length/height- for-age, weight-for-age, weight-for-length, weight-for- height and body mass index-for-age:methods and development[S]. Geneva:World Health Organization, 2006.
+                - link " 返回引文位置" [ref=e767] [cursor=pointer]:
+                  - /url: "#R14B"
+                  - generic [ref=e768]: 
+                  - text: 返回引文位置
+            - generic [ref=e770]:
+              - generic [ref=e771]: "[15]"
+              - generic [ref=e773]:
+                - generic [ref=e774]:
+                  - generic [ref=e775]:
+                    - generic [ref=e777]: Cole TJ
+                    - text: ","
+                    - generic [ref=e779]: Bellizzi MC
+                    - text: ","
+                    - generic [ref=e781]: Flegal KM
+                    - text: ",et al"
+                  - text: . Establishing a standard definition for child overweight and obesity worldwide:international survey[J]. BMJ, 2000,320(7244):1240-1243.
+                  - generic [ref=e782]:
+                    - text: "DOI:"
+                    - link "10.1136/bmj.320.7244.1240" [ref=e784] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1136/bmj.320.7244.1240
+                  - text: .
+                - generic [ref=e785]:
+                  - link " 返回引文位置" [ref=e786] [cursor=pointer]:
+                    - /url: "#R15B"
+                    - generic [ref=e787]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e791]:
+              - generic [ref=e792]: "[16]"
+              - generic [ref=e794]:
+                - generic [ref=e795]:
+                  - generic [ref=e796]:
+                    - generic [ref=e798]: Pan XF
+                    - text: ","
+                    - generic [ref=e800]: Wang L
+                    - text: ","
+                    - generic [ref=e802]: Pan A
+                  - text: . Epidemiology and determinants of obesity in China[J]. Lancet Diabetes Endocrinol, 2021,9(6):373-392.
+                  - generic [ref=e803]:
+                    - text: "DOI:"
+                    - link "10.1016/S2213-8587(21)00045-0" [ref=e805] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S2213-8587(21)00045-0
+                  - text: .
+                - generic [ref=e806]:
+                  - link " 返回引文位置" [ref=e807] [cursor=pointer]:
+                    - /url: "#R16B"
+                    - generic [ref=e808]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e812]:
+              - generic [ref=e813]: "[17]"
+              - generic [ref=e815]:
+                - generic [ref=e816]:
+                  - generic [ref=e817]:
+                    - generic [ref=e819]: McLeroy KR
+                    - text: ","
+                    - generic [ref=e821]: Bibeau D
+                    - text: ","
+                    - generic [ref=e823]: Steckler A
+                    - text: ",et al"
+                  - text: . An ecological perspective on health promotion programs[J]. Health Educ Q, 1988,15(4):351-377.
+                  - generic [ref=e824]:
+                    - text: "DOI:"
+                    - link "10.1177/109019818801500401" [ref=e826] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1177/109019818801500401
+                  - text: .
+                - generic [ref=e827]:
+                  - link " 返回引文位置" [ref=e828] [cursor=pointer]:
+                    - /url: "#R17B"
+                    - generic [ref=e829]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e833]:
+              - generic [ref=e834]: "[18]"
+              - generic [ref=e836]:
+                - generic [ref=e837]:
+                  - generic [ref=e838]:
+                    - generic [ref=e840]: Swinburn BA
+                    - text: ","
+                    - generic [ref=e842]: Sacks G
+                    - text: ","
+                    - generic [ref=e844]: Hall KD
+                    - text: ",et al"
+                  - text: . The global obesity pandemic:shaped by global drivers and local environments[J]. Lancet, 2011,378(9793):804-814.
+                  - generic [ref=e845]:
+                    - text: "DOI:"
+                    - link "10.1016/S0140-6736(11)60813-1" [ref=e847] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S0140-6736(11)60813-1
+                  - text: .
+                - generic [ref=e848]:
+                  - link " 返回引文位置" [ref=e849] [cursor=pointer]:
+                    - /url: "#R18B"
+                    - generic [ref=e850]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e854]:
+              - generic [ref=e855]: "[19]"
+              - generic [ref=e857]:
+                - generic [ref=e858]:
+                  - generic [ref=e861]: Popkin BM
+                  - text: . Synthesis and implications:China's nutrition transition in the context of changes across other low- and middle-income countries[J]. Obes Rev, 2014,15Suppl 1:60-67.
+                  - generic [ref=e862]:
+                    - text: "DOI:"
+                    - link "10.1111/obr.12120" [ref=e864] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1111/obr.12120
+                  - text: .
+                - generic [ref=e865]:
+                  - link " 返回引文位置" [ref=e866] [cursor=pointer]:
+                    - /url: "#R19B"
+                    - generic [ref=e867]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e871]:
+              - generic [ref=e872]: "[20]"
+              - generic [ref=e874]:
+                - generic [ref=e875]:
+                  - generic [ref=e876]:
+                    - generic [ref=e878]: Zhen S
+                    - text: ","
+                    - generic [ref=e880]: Ma Y
+                    - text: ","
+                    - generic [ref=e882]: Zhao Z
+                    - text: ",et al"
+                  - text: . Dietary pattern is associated with obesity in Chinese children and adolescents:data from China Health and Nutrition Survey (CHNS)[J]. Nutr J, 2018,17(1):68.
+                  - generic [ref=e883]:
+                    - text: "DOI:"
+                    - link "10.1186/s12937-018-0372-8" [ref=e885] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1186/s12937-018-0372-8
+                  - text: .
+                - generic [ref=e886]:
+                  - link " 返回引文位置" [ref=e887] [cursor=pointer]:
+                    - /url: "#R20B"
+                    - generic [ref=e888]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e892]:
+              - generic [ref=e893]: "[21]"
+              - generic [ref=e895]:
+                - generic [ref=e896]:
+                  - generic [ref=e897]:
+                    - generic [ref=e899]: Xu X
+                    - text: ","
+                    - generic [ref=e901]: Byles J
+                    - text: ","
+                    - generic [ref=e903]: Shi Z
+                    - text: ",et al"
+                  - text: . Dietary pattern transitions, and the associations with BMI, waist circumference, weight and hypertension in a 7-year follow-up among the older Chinese population:a longitudinal study[J]. BMC Public Health, 2016,16:743.
+                  - generic [ref=e904]:
+                    - text: "DOI:"
+                    - link "10.1186/s12889-016-3425-y" [ref=e906] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1186/s12889-016-3425-y
+                  - text: .
+                - generic [ref=e907]:
+                  - link " 返回引文位置" [ref=e908] [cursor=pointer]:
+                    - /url: "#R21B"
+                    - generic [ref=e909]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e913]:
+              - generic [ref=e914]: "[22]"
+              - generic [ref=e916]:
+                - generic [ref=e917]:
+                  - generic [ref=e918]:
+                    - generic [ref=e920]: Cao Y
+                    - text: ","
+                    - generic [ref=e922]: Xu X
+                    - text: ","
+                    - generic [ref=e924]: Shi Z
+                  - text: . Trajectories of dietary patterns, sleep duration, and body mass index in China:a population-based longitudinal study from China Nutrition and Health Survey, 1991-2009[J]. Nutrients, 2020,12(8).
+                  - generic [ref=e925]:
+                    - text: "DOI:"
+                    - link "10.3390/nu12082245" [ref=e927] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.3390/nu12082245
+                  - text: .
+                - generic [ref=e928]:
+                  - link " 返回引文位置" [ref=e929] [cursor=pointer]:
+                    - /url: "#R22B"
+                    - generic [ref=e930]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e934]:
+              - generic [ref=e935]: "[23]"
+              - generic [ref=e937]:
+                - generic [ref=e938]:
+                  - generic [ref=e939]:
+                    - generic [ref=e941]: Su C
+                    - text: ","
+                    - generic [ref=e943]: Jia XF
+                    - text: ","
+                    - generic [ref=e945]: Wang ZH
+                    - text: ",et al"
+                  - text: . Longitudinal association of leisure time physical activity and sedentary behaviors with body weight among Chinese adults from China Health and Nutrition Survey 2004-2011[J]. Eur J Clin Nutr, 2017,71(3):383-388.
+                  - generic [ref=e946]:
+                    - text: "DOI:"
+                    - link "10.1038/ejcn.2016.262" [ref=e948] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1038/ejcn.2016.262
+                  - text: .
+                - generic [ref=e949]:
+                  - link " 返回引文位置" [ref=e950] [cursor=pointer]:
+                    - /url: "#R23B"
+                    - generic [ref=e951]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e955]:
+              - generic [ref=e956]: "[24]"
+              - generic [ref=e958]:
+                - generic [ref=e959]:
+                  - generic [ref=e960]:
+                    - generic [ref=e962]: Wang Y
+                    - text: ","
+                    - generic [ref=e964]: Su C
+                    - text: ","
+                    - generic [ref=e966]: Ouyang YF
+                    - text: ",et al"
+                  - text: . Secular trends in sedentary behaviors and associations with weight indicators among Chinese reproductive-age women from 2004 to 2015:findings from the China Health and Nutrition Survey[J]. Int J Obes (Lond), 2020,44(11):2267-2278.
+                  - generic [ref=e967]:
+                    - text: "DOI:"
+                    - link "10.1038/s41366-020-00684-3" [ref=e969] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1038/s41366-020-00684-3
+                  - text: .
+                - generic [ref=e970]:
+                  - link " 返回引文位置" [ref=e971] [cursor=pointer]:
+                    - /url: "#R24B"
+                    - generic [ref=e972]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e976]:
+              - generic [ref=e977]: "[25]"
+              - generic [ref=e979]:
+                - generic [ref=e980]:
+                  - generic [ref=e981]:
+                    - generic [ref=e983]: Dong F
+                    - text: ","
+                    - generic [ref=e985]: Howard AG
+                    - text: ","
+                    - generic [ref=e987]: Herring AH
+                    - text: ",et al"
+                  - text: . Longitudinal associations of away-from-home eating, snacking, screen time, and physical activity behaviors with cardiometabolic risk factors among Chinese children and their parents[J]. Am J Clin Nutr, 2017,106(1):168-178.
+                  - generic [ref=e988]:
+                    - text: "DOI:"
+                    - link "10.3945/ajcn.116.146217" [ref=e990] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.3945/ajcn.116.146217
+                  - text: .
+                - generic [ref=e991]:
+                  - link " 返回引文位置" [ref=e992] [cursor=pointer]:
+                    - /url: "#R25B"
+                    - generic [ref=e993]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e997]:
+              - generic [ref=e998]: "[26]"
+              - generic [ref=e1000]:
+                - generic [ref=e1001]:
+                  - generic [ref=e1002]:
+                    - generic [ref=e1004]: Dearth-Wesley T
+                    - text: ","
+                    - generic [ref=e1006]: Howard AG
+                    - text: ","
+                    - generic [ref=e1008]: Wang H
+                    - text: ",et al"
+                  - text: . Trends in domain-specific physical activity and sedentary behaviors among Chinese school children, 2004-2011[J]. Int J Behav Nutr Phys Act, 2017,14(1):141.
+                  - generic [ref=e1009]:
+                    - text: "DOI:"
+                    - link "10.1186/s12966-017-0598-4" [ref=e1011] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1186/s12966-017-0598-4
+                  - text: .
+                - generic [ref=e1012]:
+                  - link " 返回引文位置" [ref=e1013] [cursor=pointer]:
+                    - /url: "#R26B"
+                    - generic [ref=e1014]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1018]:
+              - generic [ref=e1019]: "[27]"
+              - generic [ref=e1021]:
+                - generic [ref=e1022]:
+                  - generic [ref=e1023]:
+                    - generic [ref=e1025]: Voerman E
+                    - text: ","
+                    - generic [ref=e1027]: Santos S
+                    - text: ","
+                    - generic [ref=e1029]: Patro GB
+                    - text: ",et al"
+                  - text: . Maternal body mass index, gestational weight gain, and the risk of overweight and obesity across childhood:an individual participant data meta-analysis[J]. PLoS Med, 2019,16(2):e1002744.
+                  - generic [ref=e1030]:
+                    - text: "DOI:"
+                    - link "10.1371/journal.pmed.1002744" [ref=e1032] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1371/journal.pmed.1002744
+                  - text: .
+                - generic [ref=e1033]:
+                  - link " 返回引文位置" [ref=e1034] [cursor=pointer]:
+                    - /url: "#R27B"
+                    - generic [ref=e1035]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1039]:
+              - generic [ref=e1040]: "[28]"
+              - generic [ref=e1042]:
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]:
+                    - generic [ref=e1046]: Su C
+                    - text: ","
+                    - generic [ref=e1048]: Song X
+                    - text: ","
+                    - generic [ref=e1050]: Hu H
+                    - text: ",et al"
+                  - text: . Longitudinal association between urbanicity and total dietary fat intake in adults in urbanizing China from 1991 to 2015:findings from the CHNS[J]. Nutrients, 2020,12(6):1597.
+                  - generic [ref=e1051]:
+                    - text: "DOI:"
+                    - link "10.3390/nu12061597" [ref=e1053] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.3390/nu12061597
+                  - text: .
+                - generic [ref=e1054]:
+                  - link " 返回引文位置" [ref=e1055] [cursor=pointer]:
+                    - /url: "#R28B"
+                    - generic [ref=e1056]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1060]:
+              - generic [ref=e1061]: "[29]"
+              - generic [ref=e1063]:
+                - generic [ref=e1064]:
+                  - generic [ref=e1065]:
+                    - generic [ref=e1067]: Wu Y
+                    - text: ","
+                    - generic [ref=e1069]: Xue H
+                    - text: ","
+                    - generic [ref=e1071]: Wang H
+                    - text: ",et al"
+                  - text: . The impact of urbanization on the community food environment in China[J]. Asia Pac J Clin Nutr, 2017,26(3):504-513.
+                  - generic [ref=e1072]:
+                    - text: "DOI:"
+                    - link "10.6133/apjcn.032016.09" [ref=e1074] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.6133/apjcn.032016.09
+                  - text: .
+                - generic [ref=e1075]:
+                  - link " 返回引文位置" [ref=e1076] [cursor=pointer]:
+                    - /url: "#R29B"
+                    - generic [ref=e1077]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1081]:
+              - generic [ref=e1082]: "[30]"
+              - generic [ref=e1084]:
+                - generic [ref=e1085]:
+                  - generic [ref=e1086]:
+                    - generic [ref=e1088]: Hawkes C
+                    - text: ","
+                    - generic [ref=e1090]: Smith TG
+                    - text: ","
+                    - generic [ref=e1092]: Jewell J
+                    - text: ",et al"
+                  - text: . Smart food policies for obesity prevention[J]. Lancet, 2015,385(9985):2410-2421.
+                  - generic [ref=e1093]:
+                    - text: "DOI:"
+                    - link "10.1016/S0140-6736(14)61745-1" [ref=e1095] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/S0140-6736(14)61745-1
+                  - text: .
+                - generic [ref=e1096]:
+                  - link " 返回引文位置" [ref=e1097] [cursor=pointer]:
+                    - /url: "#R30B"
+                    - generic [ref=e1098]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1102]:
+              - generic [ref=e1103]: "[31]"
+              - generic [ref=e1105]:
+                - generic [ref=e1106]:
+                  - generic [ref=e1107]: WHO
+                  - text: . Report of the commission on ending childhood obesity:implementation plan:report by the secretariat[R]. Geneva:World Health Organization, 2017.
+                - generic [ref=e1108]:
+                  - link " 返回引文位置" [ref=e1109] [cursor=pointer]:
+                    - /url: "#R31B"
+                    - generic [ref=e1110]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1114]:
+              - generic [ref=e1115]: "[32]"
+              - generic [ref=e1116]:
+                - generic [ref=e1117]:
+                  - generic [ref=e1118]:
+                    - generic [ref=e1119]:
+                      - generic [ref=e1120]: 邹志勇
+                      - text: ","
+                      - generic [ref=e1121]: 李晓卉
+                      - text: ","
+                      - generic [ref=e1122]: 庄丽丽
+                      - text: ",等"
+                    - text: . 5-2-1-1-0行为干预改善儿童青少年超重肥胖效果评价[J]. 中国学校卫生, 2016,37(7):973-976.
+                    - generic [ref=e1123]:
+                      - text: "DOI:"
+                      - link "10.16835/j.cnki.1000-9817.2016.07.004" [ref=e1125] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.16835/j.cnki.1000-9817.2016.07.004
+                    - text: .
+                  - generic [ref=e1126]:
+                    - link " 返回引文位置" [ref=e1127] [cursor=pointer]:
+                      - /url: "#R32B"
+                      - generic [ref=e1128]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e1131]:
+                  - generic [ref=e1132]:
+                    - generic [ref=e1133]:
+                      - generic [ref=e1135]: Zou ZY
+                      - text: ","
+                      - generic [ref=e1137]: Li XH
+                      - text: ","
+                      - generic [ref=e1139]: Zhuang LL
+                      - text: ",et al"
+                    - text: . Analysis of effects of 5-2-1-1-0 behavior intervention on overweight and obesity in children and adolescents[J]. Chin J Sch Health, 2016,37(7):973-976.
+                    - generic [ref=e1140]:
+                      - text: "DOI:"
+                      - link "10.16835/j.cnki.1000-9817.2016.07.004" [ref=e1142] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.16835/j.cnki.1000-9817.2016.07.004
+                    - text: .
+                  - generic [ref=e1143]:
+                    - link " Goto Citation" [ref=e1144] [cursor=pointer]:
+                      - /url: "#R32B"
+                      - generic [ref=e1145]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e1149]:
+              - generic [ref=e1150]: "[33]"
+              - generic [ref=e1152]:
+                - generic [ref=e1153]:
+                  - generic [ref=e1154]:
+                    - generic [ref=e1156]: Durrer SD
+                    - text: ","
+                    - generic [ref=e1158]: Busetto L
+                    - text: ","
+                    - generic [ref=e1160]: Dicker D
+                    - text: ",et al"
+                  - text: . European practical and patient-centred guidelines for adult obesity management in primary care[J]. Obes Facts, 2019,12(1):40-66.
+                  - generic [ref=e1161]:
+                    - text: "DOI:"
+                    - link "10.1159/000496183" [ref=e1163] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1159/000496183
+                  - text: .
+                - generic [ref=e1164]:
+                  - link " 返回引文位置" [ref=e1165] [cursor=pointer]:
+                    - /url: "#R33B"
+                    - generic [ref=e1166]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1170]:
+              - generic [ref=e1171]: "[34]"
+              - generic [ref=e1172]:
+                - generic [ref=e1173]:
+                  - generic [ref=e1174]:
+                    - generic [ref=e1175]: 中华人民共和国卫生部疾病预防控制局
+                    - text: . 中国成年人身体活动指南[M]. 北京:人民卫生出版社, 2011.
+                  - link " 返回引文位置" [ref=e1177] [cursor=pointer]:
+                    - /url: "#R34B"
+                    - generic [ref=e1178]: 
+                    - text: 返回引文位置
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - generic [ref=e1181]: Bureau of Disease Control and Prevention, Ministry of Health, People's Republic of China
+                    - text: . Chinese adult physical activity guide[M]. Beijing:People's Medical Publishing House, 2011.
+                  - link " Goto Citation" [ref=e1183] [cursor=pointer]:
+                    - /url: "#R34B"
+                    - generic [ref=e1184]: 
+                    - text: Goto Citation
+            - generic [ref=e1186]:
+              - generic [ref=e1187]: "[35]"
+              - generic [ref=e1188]:
+                - generic [ref=e1189]:
+                  - generic [ref=e1190]:
+                    - generic [ref=e1191]: 儿童肥胖预防与控制指南修订委员会
+                    - text: . 儿童肥胖预防与控制指南(2021)[M]. 北京:人民卫生出版社, 2021.
+                  - link " 返回引文位置" [ref=e1193] [cursor=pointer]:
+                    - /url: "#R35B"
+                    - generic [ref=e1194]: 
+                    - text: 返回引文位置
+                - generic [ref=e1195]:
+                  - generic [ref=e1196]:
+                    - generic [ref=e1197]: Revision Committee of Guidelines for Childhood Obesity Prevention and Control
+                    - text: . Guidelines for prevention and control of childhood obesity (2021)[M]. Beijing:People's Medical Publishing House, 2021.
+                  - link " Goto Citation" [ref=e1199] [cursor=pointer]:
+                    - /url: "#R35B"
+                    - generic [ref=e1200]: 
+                    - text: Goto Citation
+            - generic [ref=e1202]:
+              - generic [ref=e1203]: "[36]"
+              - generic [ref=e1204]:
+                - generic [ref=e1205]:
+                  - generic [ref=e1206]:
+                    - generic [ref=e1207]: 中国医疗保健国际交流促进会营养与代谢管理分会,中国营养学会临床营养分会,中华医学会糖尿病学分会,等
+                    - text: . 中国超重/肥胖医学营养治疗指南(2021)[J]. 中国医学前沿杂志:电子版, 2021,13(11):1-55.
+                    - generic [ref=e1208]:
+                      - text: "DOI:"
+                      - link "10.12037/YXQY.2021.11-01" [ref=e1210] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.12037/YXQY.2021.11-01
+                    - text: .
+                  - generic [ref=e1211]:
+                    - link " 返回引文位置" [ref=e1212] [cursor=pointer]:
+                      - /url: "#R36B"
+                      - generic [ref=e1213]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e1216]:
+                  - generic [ref=e1217]:
+                    - generic [ref=e1218]: Nutrition and Metabolism Management Branch of China Medical Care International Exchange Promotion Association,Clinical Nutrition Branch of China Nutrition Society,Chinese Diabetes Society,et al
+                    - text: ". Guidelines for medical nutrition treatment of overweight/obesity in China (2021)[J]. Chinese Journal of the Frontiers of Medical Science: Electronic Version, 2021,13(11):1-55."
+                    - generic [ref=e1219]:
+                      - text: "DOI:"
+                      - link "10.12037/YXQY.2021.11-01" [ref=e1221] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.12037/YXQY.2021.11-01
+                    - text: .
+                  - generic [ref=e1222]:
+                    - link " Goto Citation" [ref=e1223] [cursor=pointer]:
+                      - /url: "#R36B"
+                      - generic [ref=e1224]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e1228]:
+              - generic [ref=e1229]: "[37]"
+              - generic [ref=e1231]:
+                - generic [ref=e1232]:
+                  - generic [ref=e1233]: WHO
+                  - text: . WHO guidelines on physical activity and sedentary behaviour[M]. Geneva:World Health Organization, 2020.
+                - link " 返回引文位置" [ref=e1235] [cursor=pointer]:
+                  - /url: "#R37B"
+                  - generic [ref=e1236]: 
+                  - text: 返回引文位置
+            - generic [ref=e1238]:
+              - generic [ref=e1239]: "[38]"
+              - generic [ref=e1240]:
+                - generic [ref=e1241]:
+                  - generic [ref=e1242]:
+                    - generic [ref=e1243]: 中华医学会内分泌学分会肥胖学组
+                    - text: . 中国成人肥胖症防治专家共识[J]. 中华内分泌代谢杂志, 2011(9):711-717.
+                    - generic [ref=e1244]:
+                      - text: "DOI:"
+                      - link "10.3760/cma.j.issn.1000-6699.2011.09.003" [ref=e1246] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3760/cma.j.issn.1000-6699.2011.09.003
+                    - text: .
+                  - generic [ref=e1247]:
+                    - link " 返回引文位置" [ref=e1248] [cursor=pointer]:
+                      - /url: "#R38B"
+                      - generic [ref=e1249]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e1252]:
+                  - generic [ref=e1253]:
+                    - generic [ref=e1254]: Obesity Group of Endocrinology Society of Chinese Medical Association
+                    - text: . Consensus of experts on prevention and treatment of adult obesity in China[J]. Chin J Endocrinol Metab, 2011(9):711-717.
+                    - generic [ref=e1255]:
+                      - text: "DOI:"
+                      - link "10.3760/cma.j.issn.1000-6699.2011.09.003" [ref=e1257] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3760/cma.j.issn.1000-6699.2011.09.003
+                    - text: .
+                  - generic [ref=e1258]:
+                    - link " Goto Citation" [ref=e1259] [cursor=pointer]:
+                      - /url: "#R38B"
+                      - generic [ref=e1260]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e1264]:
+              - generic [ref=e1265]: "[39]"
+              - generic [ref=e1267]:
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]:
+                    - generic [ref=e1271]: Garvey WT
+                    - text: ","
+                    - generic [ref=e1273]: Mechanick JI
+                    - text: ","
+                    - generic [ref=e1275]: Brett EM
+                    - text: ",et al"
+                  - text: . American association of clinical endocrinologists and American college of endocrinology comprehensive clinical practice guidelines for medical care of patients with obesity[J]. Endocr Pract, 2016,22(7):842-884.
+                  - generic [ref=e1276]:
+                    - text: "DOI:"
+                    - link "10.4158/EP161356.ESGL" [ref=e1278] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.4158/EP161356.ESGL
+                  - text: .
+                - generic [ref=e1279]:
+                  - link " 返回引文位置" [ref=e1280] [cursor=pointer]:
+                    - /url: "#R39B"
+                    - generic [ref=e1281]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1285]:
+              - generic [ref=e1286]: "[40]"
+              - generic [ref=e1287]:
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]:
+                    - generic [ref=e1290]:
+                      - generic [ref=e1291]: 王勇
+                      - text: ","
+                      - generic [ref=e1292]: 王存川
+                      - text: ","
+                      - generic [ref=e1293]: 朱晒红
+                      - text: ",等"
+                    - text: . 中国肥胖及2型糖尿病外科治疗指南(2019版)[J]. 中国实用外科杂志, 2019,39(4):301-306.
+                    - generic [ref=e1294]:
+                      - text: "DOI:"
+                      - link "10.3969/j.issn.1005-6483.2020.01.013" [ref=e1296] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3969/j.issn.1005-6483.2020.01.013
+                    - text: .
+                  - generic [ref=e1297]:
+                    - link " 返回引文位置" [ref=e1298] [cursor=pointer]:
+                      - /url: "#R40B"
+                      - generic [ref=e1299]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e1302]:
+                  - generic [ref=e1303]:
+                    - generic [ref=e1304]:
+                      - generic [ref=e1306]: Wang Y
+                      - text: ","
+                      - generic [ref=e1308]: Wang CC
+                      - text: ","
+                      - generic [ref=e1310]: Zhu SH
+                      - text: ",et al"
+                    - text: . Guidelines for surgical treatment of obesity and type 2 diabetes in China (2019)[J]. Chinese Journal of Practical Surgery, 2019,39(4):301-306.
+                    - generic [ref=e1311]:
+                      - text: "DOI:"
+                      - link "10.3969/j.issn.1005-6483.2020.01.013" [ref=e1313] [cursor=pointer]:
+                        - /url: http://dx.doi.org/10.3969/j.issn.1005-6483.2020.01.013
+                    - text: .
+                  - generic [ref=e1314]:
+                    - link " Goto Citation" [ref=e1315] [cursor=pointer]:
+                      - /url: "#R40B"
+                      - generic [ref=e1316]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e1320]:
+              - generic [ref=e1321]: "[41]"
+              - generic [ref=e1323]:
+                - generic [ref=e1324]:
+                  - generic [ref=e1325]:
+                    - generic [ref=e1327]: Xu T
+                    - text: ","
+                    - generic [ref=e1329]: Wang C
+                    - text: ","
+                    - generic [ref=e1331]: Zhang H
+                    - text: ",et al"
+                  - text: . Timing of maximal weight reduction following bariatric surgery:a study in Chinese patients[J]. Front Endocrinol (Lausanne), 2020,11:615.
+                  - generic [ref=e1332]:
+                    - text: "DOI:"
+                    - link "10.3389/fendo.2020.00615" [ref=e1334] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.3389/fendo.2020.00615
+                  - text: .
+                - generic [ref=e1335]:
+                  - link " 返回引文位置" [ref=e1336] [cursor=pointer]:
+                    - /url: "#R41B"
+                    - generic [ref=e1337]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1341]:
+              - generic [ref=e1342]: "[42]"
+              - generic [ref=e1344]:
+                - generic [ref=e1345]:
+                  - generic [ref=e1346]:
+                    - generic [ref=e1348]: Yu H
+                    - text: ","
+                    - generic [ref=e1350]: Di J
+                    - text: ","
+                    - generic [ref=e1352]: Bao Y
+                    - text: ",et al"
+                  - text: .
+                  - generic [ref=e1353]:
+                    - text: Visceral fat area as a new predictor of short-term diabetes remission after Roux-en-Y gastric bypass surgery in Chinese patients with a body mass index less than 35 kg/m
+                    - superscript [ref=e1354]: "2"
+                  - text: "[J]. Surg Obes Relat Dis, 2015,11(1):6-11."
+                  - generic [ref=e1355]:
+                    - text: "DOI:"
+                    - link "10.1016/j.soard.2014.06.019" [ref=e1357] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1016/j.soard.2014.06.019
+                  - text: .
+                - generic [ref=e1358]:
+                  - link " 返回引文位置" [ref=e1359] [cursor=pointer]:
+                    - /url: "#R42B"
+                    - generic [ref=e1360]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1364]:
+              - generic [ref=e1365]: "[43]"
+              - generic [ref=e1367]:
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]:
+                    - generic [ref=e1371]: Yu H
+                    - text: ","
+                    - generic [ref=e1373]: Du R
+                    - text: ","
+                    - generic [ref=e1375]: Zhang N
+                    - text: ",et al"
+                  - text: . Iron-deficiency anemia after aparoscopic Roux-en-Y gastric bypass in Chinese obese patients with type 2 diabetes:a 2-year follow-up study[J]. Obes Surg, 2016,26(11):2705-2711.
+                  - generic [ref=e1376]:
+                    - text: "DOI:"
+                    - link "10.1007/s11695-016-2161-9" [ref=e1378] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1007/s11695-016-2161-9
+                  - text: .
+                - generic [ref=e1379]:
+                  - link " 返回引文位置" [ref=e1380] [cursor=pointer]:
+                    - /url: "#R43B"
+                    - generic [ref=e1381]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1385]:
+              - generic [ref=e1386]: "[44]"
+              - generic [ref=e1388]:
+                - generic [ref=e1389]:
+                  - generic [ref=e1390]:
+                    - generic [ref=e1392]: Tu Y
+                    - text: ","
+                    - generic [ref=e1394]: Wang L
+                    - text: ","
+                    - generic [ref=e1396]: Wei L
+                    - text: ",et al"
+                  - text: .
+                  - generic [ref=e1397]:
+                    - text: Cost-utility of laparoscopic Roux-en-Y gastric bypass in Chinese patients with type 2 diabetes and obesity with a BMI ≥27.5 kg/m
+                    - superscript [ref=e1398]: "2"
+                    - text: :a multi-center study with a 4-year follow-up of surgical cohort
+                  - text: "[J]. Obes Surg, 2019,29(12):3978-3986."
+                  - generic [ref=e1399]:
+                    - text: "DOI:"
+                    - link "10.1007/s11695-019-04069-y" [ref=e1401] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1007/s11695-019-04069-y
+                  - text: .
+                - generic [ref=e1402]:
+                  - link " 返回引文位置" [ref=e1403] [cursor=pointer]:
+                    - /url: "#R44B"
+                    - generic [ref=e1404]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1408]:
+              - generic [ref=e1409]: "[45]"
+              - generic [ref=e1411]:
+                - generic [ref=e1412]:
+                  - generic [ref=e1413]:
+                    - generic [ref=e1415]: Wang S
+                    - text: ","
+                    - generic [ref=e1417]: Sun Q
+                    - text: ","
+                    - generic [ref=e1419]: Zhai L
+                    - text: ",et al"
+                  - text: . The prevalence of depression and anxiety symptoms among overweight/obese and non-overweight/non-obese children/adolescents in China:a systematic review and meta-analysis[J]. Int J Environ Res Public Health, 2019,16(3):340.
+                  - generic [ref=e1420]:
+                    - text: "DOI:"
+                    - link "10.3390/ijerph16030340" [ref=e1422] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.3390/ijerph16030340
+                  - text: .
+                - generic [ref=e1423]:
+                  - link " 返回引文位置" [ref=e1424] [cursor=pointer]:
+                    - /url: "#R45B"
+                    - generic [ref=e1425]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1429]:
+              - generic [ref=e1430]: "[46]"
+              - generic [ref=e1432]:
+                - generic [ref=e1433]:
+                  - generic [ref=e1434]:
+                    - generic [ref=e1436]: MacLean PS
+                    - text: ","
+                    - generic [ref=e1438]: Wing RR
+                    - text: ","
+                    - generic [ref=e1440]: Davidson T
+                    - text: ",et al"
+                  - text: . NIH working group report:innovative research to improve maintenance of weight loss[J]. Obesity, 2015,23(1):7-15.
+                  - generic [ref=e1441]:
+                    - text: "DOI:"
+                    - link "10.1002/oby.20967" [ref=e1443] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1002/oby.20967
+                  - text: .
+                - generic [ref=e1444]:
+                  - link " 返回引文位置" [ref=e1445] [cursor=pointer]:
+                    - /url: "#R46B"
+                    - generic [ref=e1446]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1450]:
+              - generic [ref=e1451]: "[47]"
+              - generic [ref=e1453]:
+                - generic [ref=e1454]:
+                  - generic [ref=e1455]:
+                    - generic [ref=e1457]: Rodgers GP
+                    - text: ","
+                    - generic [ref=e1459]: Collins FS
+                  - text: . Precision nutrition-the answer to "What to eat to stay healthy"[J]. JAMA, 2020,324(8):735-736.
+                  - generic [ref=e1460]:
+                    - text: "DOI:"
+                    - link "10.1001/jama.2020.13601" [ref=e1462] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1001/jama.2020.13601
+                  - text: .
+                - generic [ref=e1463]:
+                  - link " 返回引文位置" [ref=e1464] [cursor=pointer]:
+                    - /url: "#R47B"
+                    - generic [ref=e1465]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1469]:
+              - generic [ref=e1470]: "[48]"
+              - generic [ref=e1472]:
+                - generic [ref=e1473]:
+                  - generic [ref=e1474]:
+                    - generic [ref=e1476]: Ferguson LR
+                    - text: ","
+                    - generic [ref=e1478]: DeCaterina R
+                    - text: ","
+                    - generic [ref=e1480]: Gorman U
+                    - text: ",et al"
+                  - text: . Guide and position of the international society of nutrigenetics/nutrigenomics on personalised nutrition:part 1 - fields of precision nutrition[J]. J Nutrigenet Nutrigenomics, 2016,9(1):12-27.
+                  - generic [ref=e1481]:
+                    - text: "DOI:"
+                    - link "10.1159/000445350" [ref=e1483] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.1159/000445350
+                  - text: .
+                - generic [ref=e1484]:
+                  - link " 返回引文位置" [ref=e1485] [cursor=pointer]:
+                    - /url: "#R48B"
+                    - generic [ref=e1486]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1490]:
+              - generic [ref=e1491]: "[49]"
+              - generic [ref=e1493]:
+                - generic [ref=e1494]:
+                  - generic [ref=e1495]:
+                    - generic [ref=e1497]: Wang Y
+                    - text: ","
+                    - generic [ref=e1499]: Xue H
+                    - text: ","
+                    - generic [ref=e1501]: Liu S
+                  - text: . Applications of systems science in biomedical research regarding obesity and noncommunicable chronic diseases:opportunities, promise, and challenges[J]. Adv Nutr, 2015,6(1):88-95.
+                  - generic [ref=e1502]:
+                    - text: "DOI:"
+                    - link "10.3945/an.114.007203" [ref=e1504] [cursor=pointer]:
+                      - /url: http://dx.doi.org/10.3945/an.114.007203
+                  - text: .
+                - generic [ref=e1505]:
+                  - link " 返回引文位置" [ref=e1506] [cursor=pointer]:
+                    - /url: "#R49B"
+                    - generic [ref=e1507]: 
+                    - text: 返回引文位置
+                  - text: Google Scholar
+                  - text: 百度学术
+                  - text: 万方数据
+            - generic [ref=e1511]:
+              - generic [ref=e1512]: "[50]"
+              - generic [ref=e1513]:
+                - generic [ref=e1514]:
+                  - generic [ref=e1515]:
+                    - generic [ref=e1516]: 中国营养学会
+                    - text: . 中国居民膳食指南2022[M]. 北京:人民卫生出版社, 2022.
+                  - link " 返回引文位置" [ref=e1518] [cursor=pointer]:
+                    - /url: "#R50B"
+                    - generic [ref=e1519]: 
+                    - text: 返回引文位置
+                - generic [ref=e1520]:
+                  - generic [ref=e1521]:
+                    - generic [ref=e1522]: Chinese Nutrition Society
+                    - text: . Dietary guide for Chinese residents 2022[M]. Beijing:People's Medical Publishing House, 2022.
+                  - link " Goto Citation" [ref=e1524] [cursor=pointer]:
+                    - /url: "#R50B"
+                    - generic [ref=e1525]: 
+                    - text: Goto Citation
+            - generic [ref=e1527]:
+              - generic [ref=e1528]: "[51]"
+              - generic [ref=e1529]:
+                - generic [ref=e1530]:
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]: 中国营养学会
+                    - text: . 中国居民膳食指南科学研究报告2021[R]. 北京:中国营养学会, 2021.
+                  - generic [ref=e1533]:
+                    - link " 返回引文位置" [ref=e1534] [cursor=pointer]:
+                      - /url: "#R51B"
+                      - generic [ref=e1535]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e1538]:
+                  - generic [ref=e1539]:
+                    - generic [ref=e1540]: Chinese Nutrition Society
+                    - text: . Scientific research report on dietary guidelines for Chinese residents 2021[R]. Beijing:Chinese Nutrition Society, 2021.
+                  - generic [ref=e1541]:
+                    - link " Goto Citation" [ref=e1542] [cursor=pointer]:
+                      - /url: "#R51B"
+                      - generic [ref=e1543]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+            - generic [ref=e1547]:
+              - generic [ref=e1548]: "[52]"
+              - generic [ref=e1549]:
+                - generic [ref=e1550]:
+                  - generic [ref=e1551]:
+                    - generic [ref=e1552]: 中国成人超重和肥胖预防控制指南修订委员会
+                    - text: . 中国成人超重和肥胖预防控制指南(2021)[M]. 北京:人民卫生出版社, 2021.
+                  - link " 返回引文位置" [ref=e1554] [cursor=pointer]:
+                    - /url: "#R52B"
+                    - generic [ref=e1555]: 
+                    - text: 返回引文位置
+                - generic [ref=e1556]:
+                  - generic [ref=e1557]:
+                    - generic [ref=e1558]: Revision Committee of Guidelines for Chinese Adult Overweight and Obesity Prevention and Control
+                    - text: . Guidelines for Chinese adult overweight and obesity prevention and control (2021)[M]. Beijing:People's Medical Publishing House, 2021.
+                  - link " Goto Citation" [ref=e1560] [cursor=pointer]:
+                    - /url: "#R52B"
+                    - generic [ref=e1561]: 
+                    - text: Goto Citation
+            - generic [ref=e1563]:
+              - generic [ref=e1564]: "[53]"
+              - generic [ref=e1565]:
+                - generic [ref=e1566]:
+                  - generic [ref=e1567]:
+                    - generic [ref=e1568]:
+                      - generic [ref=e1569]: 王友发
+                      - text: ","
+                      - generic [ref=e1570]: 彭雯
+                      - text: ","
+                      - generic [ref=e1571]: 田向阳
+                      - text: ",等"
+                    - text: . 中国肥胖防控倡议书[J]. 西安交通大学学报:医学版, 2021,42(3):334.
+                  - generic [ref=e1572]:
+                    - link " 返回引文位置" [ref=e1573] [cursor=pointer]:
+                      - /url: "#R53B"
+                      - generic [ref=e1574]: 
+                      - text: 返回引文位置
+                    - text: Google Scholar
+                    - text: 百度学术
+                    - text: 万方数据
+                - generic [ref=e1577]:
+                  - generic [ref=e1578]:
+                    - generic [ref=e1579]:
+                      - generic [ref=e1581]: Wang YF
+                      - text: ","
+                      - generic [ref=e1583]: Peng W
+                      - text: ","
+                      - generic [ref=e1585]: Tian XY
+                      - text: ",et al"
+                    - text: ". China obesity prevention and control proposal[J]. J Xi'an Jiaotong Univ: Med Sci, 2021,42(3):334."
+                  - generic [ref=e1586]:
+                    - link " Goto Citation" [ref=e1587] [cursor=pointer]:
+                      - /url: "#R53B"
+                      - generic [ref=e1588]: 
+                      - text: Goto Citation
+                    - text: Google Scholar
+                    - text: Baidu Scholar
+                    - text: Wanfang Data
+        - generic [ref=e1593]:
+          - generic [ref=e1594]: 备注信息
+          - generic [ref=e1595]:
+            - generic [ref=e1596]:
+              - generic [ref=e1597]: A
+              - generic [ref=e1600]:
+                - generic [ref=e1601]: 通信作者：
+                - text: 王友发，Email：
+                - link "moc .l iamg@gnawafuoy" [ref=e1602] [cursor=pointer]:
+                  - /url: mailto:youfawang@gmail.com
+                  - text: moc .l iamg
+                  - generic [ref=e1603]: "@"
+                  - text: gnawafuoy
+            - generic [ref=e1604]:
+              - generic [ref=e1605]: B
+              - generic [ref=e1608]:
+                - generic [ref=e1609]: 引用本文：
+                - paragraph [ref=e1610]: "中国营养学会肥胖防控分会，中国营养学会临床营养分会，中华预防医学会行为健康分会，等. 中国居民肥胖防治专家共识[J]. 中华流行病学杂志, 2022, 43(5): 609-626. DOI: 10.3760/cma.j.cn112338-20220402-00253."
+        - button "下一篇 " [ref=e1614] [cursor=pointer]:
+          - generic [ref=e1615]:
+            - generic [ref=e1616]: 下一篇
+            - generic [ref=e1617]: 
+        - generic [ref=e1620]:
+          - generic [ref=e1621]:
+            - generic [ref=e1622]: 评论
+            - generic [ref=e1623]: （0条）
+          - generic [ref=e1624]:
+            - text: 注册
+            - text: 登录
+            - button "时间排序 " [ref=e1627] [cursor=pointer]:
+              - text: 时间排序
+              - generic [ref=e1628]: 
+          - generic [ref=e1629]:
+            - textbox "输入您想要说的内容" [ref=e1633]
+            - generic [ref=e1634]: 暂无评论，发表第一条评论抢沙发
+        - generic [ref=e1637]:
+          - generic [ref=e1638]:
+            - generic [ref=e1639]: 最新推荐
+            - generic [ref=e1640] [cursor=pointer]:
+              - generic [ref=e1641]: 更多
+              - generic [ref=e1642]: 
+          - generic [ref=e1643]:
+            - generic [ref=e1644]:
+              - generic "超重或肥胖成人实体器官移植受者体重管理专家共识（2025版）" [ref=e1645] [cursor=pointer]
+              - generic [ref=e1646]:
+                - generic [ref=e1647]: 中国研究型医院学会糖尿病学专业委员会
+                - text: 中华糖尿病杂志 2025,17(09)
+            - generic [ref=e1649]:
+              - generic "1985—2019年中国7~18岁儿童青少年超重与肥胖的流行趋势及预测研究" [ref=e1650] [cursor=pointer]
+              - generic [ref=e1651]:
+                - generic [ref=e1652]: 董彦会 等
+                - text: 中华预防医学杂志 2023,57(04)
+            - generic [ref=e1654]:
+              - generic "《中国居民肥胖防治专家共识》发布" [ref=e1655] [cursor=pointer]
+              - generic [ref=e1656]: 中华医学信息导报 2022,37(11)
+            - generic [ref=e1658]:
+              - generic "超重或肥胖人群体重管理流程的专家共识（2021年）" [ref=e1659] [cursor=pointer]
+              - generic [ref=e1660]:
+                - generic [ref=e1661]: 中华医学会健康管理学分会 等
+                - text: 中华健康管理学杂志 2021,15(04)
+      - contentinfo:
+        - generic [ref=e1664]:
+          - generic [ref=e1666]:
+            - img [ref=e1668]
+            - generic [ref=e1669]:
+              - heading "|友情链接" [level=4] [ref=e1670]
+              - paragraph [ref=e1671]:
+                - link "国家卫生健康委员会" [ref=e1672] [cursor=pointer]:
+                  - /url: http://www.nhc.gov.cn/
+              - paragraph [ref=e1673]:
+                - link "中国科学技术协会" [ref=e1674] [cursor=pointer]:
+                  - /url: http://www.cast.org.cn/
+              - paragraph [ref=e1675]:
+                - link "中华医学会" [ref=e1676] [cursor=pointer]:
+                  - /url: https://www.cma.org.cn/
+              - paragraph [ref=e1677]:
+                - link "国家新闻出版署" [ref=e1678] [cursor=pointer]:
+                  - /url: http://www.nppa.gov.cn/
+              - paragraph [ref=e1679]:
+                - link "中华医学期刊网" [ref=e1680] [cursor=pointer]:
+                  - /url: https://medjournals.cn/index.do
+            - generic [ref=e1681]:
+              - heading "|关于我们" [level=4] [ref=e1682]
+              - paragraph [ref=e1683]:
+                - link "中华医学会杂志社" [ref=e1684] [cursor=pointer]:
+                  - /url: https://www.yiigle.com/magazine
+              - paragraph [ref=e1685]:
+                - link "法律声明" [ref=e1686] [cursor=pointer]:
+                  - /url: https://www.yiigle.com/legalStatement
+              - paragraph [ref=e1687]:
+                - link "用户协议" [ref=e1688] [cursor=pointer]:
+                  - /url: https://www.yiigle.com/agreement
+              - paragraph [ref=e1689]:
+                - link "隐私条款" [ref=e1690] [cursor=pointer]:
+                  - /url: https://www.yiigle.com/privacyclause
+              - paragraph [ref=e1691]:
+                - link "Cookie政策" [ref=e1692] [cursor=pointer]:
+                  - /url: https://www.yiigle.com/cookiepolicy
+            - generic [ref=e1693]:
+              - heading "|产品服务" [level=4] [ref=e1694]
+              - paragraph [ref=e1695]:
+                - link "帮助中心" [ref=e1696] [cursor=pointer]:
+                  - /url: https://www.yiigle.com/Home/Help
+            - generic [ref=e1697]:
+              - heading "|联系我们" [level=4] [ref=e1698]
+              - generic [ref=e1701]:
+                - generic [ref=e1702]:
+                  - text: 010-51322483（技术支持）
+                  - paragraph [ref=e1703]: 010-51322390/2391（机构用户）
+                - generic [ref=e1704]: info@cmaph.org
+                - generic [ref=e1705]: 关注微信号cmayouth或扫描二维码
+          - generic [ref=e1707]:
+            - generic [ref=e1708]:
+              - link "京ICP备 07035254号" [ref=e1710] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/
+                - img [ref=e1711]
+                - text: 京ICP备 07035254号
+              - link "京公网安备11010102000192号" [ref=e1715] [cursor=pointer]:
+                - /url: http://www.beian.gov.cn/portal/index?token=a47a464b-6299-4ec4-8089-37f3c3e70c79
+                - img [ref=e1716]
+                - text: 京公网安备11010102000192号
+              - generic [ref=e1719]: 互联网药品信息服务资格证：(京)-非经营性-2021-0070
+              - generic [ref=e1722]: 出版物经营许可证：新出发京零字第东130025号
+            - generic [ref=e1724]: © 2022《中华医学杂志》社有限责任公司版权所有
+      - generic:
+        - generic [ref=e1725]:
+          - generic [ref=e1727] [cursor=pointer]: 
+          - generic [ref=e1729] [cursor=pointer]: 
+          - generic [ref=e1731] [cursor=pointer]: 
+          - generic [ref=e1733] [cursor=pointer]: 
+          - generic [ref=e1735]: 
+          - generic [ref=e1737]: 
+          - generic [ref=e1739] [cursor=pointer]: 
+          - generic [ref=e1741] [cursor=pointer]: 
+        - generic:   
+        - generic:  
+        - generic:  
+        - generic:  
+        - generic:  
+        - generic:  
+      - text:       
+    - generic:
+      - generic [ref=e1742]:
+        - generic [ref=e1743] [cursor=pointer]: 
+        - generic [ref=e1744]:
+          - text: MedAI助手
+          - emphasis [ref=e1745]: （体验版）
+        - generic [ref=e1746]:
+          - generic "新建对话" [ref=e1747] [cursor=pointer]: 
+          - generic "历史对话" [ref=e1748] [cursor=pointer]: 
+          - generic "设置" [ref=e1749] [cursor=pointer]: 
+      - generic:
+        - generic [ref=e1751] [cursor=pointer]: 文档即答
+        - generic [ref=e1753] [cursor=pointer]: 智问智答
+        - generic [ref=e1755] [cursor=pointer]: 机器翻译
+      - generic [ref=e1756]:
+        - generic [ref=e1758]: 
+        - generic [ref=e1759]:
+          - generic [ref=e1760]: 回答内容由人工智能生成，我社无法保证其准确性和完整性，该生成内容不代表我们的态度或观点，仅供参考。
+          - generic:
+            - generic:
+              - generic [ref=e1761] [cursor=pointer]:
+                - generic [ref=e1762]: 
+                - generic [ref=e1763]: 生成快照
+              - generic:
+                - generic [ref=e1764]:
+                  - generic [ref=e1765]: 
+                  - generic [ref=e1766]: 文献快照
+                - generic [ref=e1767]:
+                  - generic [ref=e1768]: 研究类型
+                  - generic [ref=e1769]: 研究方法
+                  - generic [ref=e1770]: 本文提要
+                - generic [ref=e1771]:
+                  - generic [ref=e1772]: 学科
+                  - generic [ref=e1773]: 主题
+            - text:  
+          - paragraph [ref=e1776]: 你好，我可以帮助您更好的了解本文，请向我提问您关注的问题。
+          - text: 
+        - text: 
+        - generic [ref=e1778]:
+          - generic [ref=e1779]:
+            - textbox "请输入您的问题或需求，Shift+Enter换行" [ref=e1780]
+            - generic [ref=e1781]: 0/2000
+          - generic [ref=e1782] [cursor=pointer]: 
+        - text: 
+      - text:           
+      - generic:
+        - paragraph:
+          - link "《中华医学会杂志社用户协议》" [ref=e1784] [cursor=pointer]:
+            - /url: https://www.yiigle.com/agreement
+          - generic [ref=e1785]: "|"
+          - link "《隐私政策》" [ref=e1787] [cursor=pointer]:
+            - /url: https://www.yiigle.com/privacyclause
+        - paragraph:
+          - link "《SparkDesk 用户协议》" [ref=e1789] [cursor=pointer]:
+            - /url: https://www.xfyun.cn/doc/spark/ExperienceRules.html
+          - generic [ref=e1790]: "|"
+          - link "《SparkDesk 隐私政策》" [ref=e1792] [cursor=pointer]:
+            - /url: https://www.xfyun.cn/doc/spark/PrivacyPolicy.html
+        - generic: 网信算备340104764864601230055号 | 网信算备340104726288401230013号
+        - paragraph:
+          - generic [ref=e1793]: 技术支持：
+      - generic:
+        - generic:
+          - generic [ref=e1794]:
+            - generic [ref=e1795]:
+              - generic [ref=e1796] [cursor=pointer]: 
+              - generic [ref=e1797]: 历史对话
+            - generic [ref=e1798]: 本文 全部
+          - generic [ref=e1799]:
+            - img [ref=e1800]
+            - generic [ref=e1802]: 还没有聊天记录
+      - generic:
+        - generic:
+          - generic [ref=e1805]:
+            - generic [ref=e1806] [cursor=pointer]: 
+            - generic [ref=e1807]: 设置
+          - generic [ref=e1808]:
+            - generic: 模式
+            - generic:
+              - generic [ref=e1809] [cursor=pointer]: 纯净模式
+              - generic [ref=e1810] [cursor=pointer]: 沉浸模式
+            - generic: 字号
+            - generic:
+              - generic [ref=e1811] [cursor=pointer]: 小
+              - generic [ref=e1812] [cursor=pointer]: 中
+              - generic [ref=e1813] [cursor=pointer]: 大
+  - img [ref=e1816] [cursor=pointer]
+  - generic:
+    - iframe

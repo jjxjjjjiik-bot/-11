@@ -1,0 +1,19 @@
+check_name,status,value,threshold,detail
+year_coverage,PASS,"27 rows","27 rows",年份连续覆盖2024--2050
+adult_population_positive,PASS,"min=1110232041.000",">0",成年人口为正
+adult_not_above_total,PASS,"max share=88.661410","<=100%",成年人口不超过总人口
+adult_formula,PASS,"max error=0.000000 persons","<=1 person",单岁人口18+汇总一致
+baseline_grid_size,PASS,"324 rows","324 rows",两模型六个K和27年完整
+rate_physical,PASS,"[55.001197, 83.921680]","inside (0,100)",预测率物理边界
+q1_anchor_values,PASS,"max error=4.26325641456e-14","<=2e-6 percentage points",K=100结果与问题一一致
+baseline_identity,PASS,"max error=0.000000 persons","<=1 person",B0=Np恒等式
+scenario_identity,PASS,"max error=0.000000 persons","<=1 person",DeltaB=B0-Bs恒等式
+scenario_physical,PASS,"all rows","all inside bounds",情景人数物理边界
+scenario_order,PASS,"low<=medium<=high","monotone",点情景可避免人数单调
+ramp_zero_2024,PASS,"2024 avoided near zero","<=1 person",2024爬坡系数为0
+quantile_order,PASS,"162 rows","all ordered",模拟分位数有序
+uncertainty_row_count,PASS,"162 rows","162 rows",两范围三情景27年完整
+sensitivity_bounds,PASS,"60 rows","finite and |rho|<=1",Spearman系数有效
+random_seed_reproducible,PASS,"max error=0","<=1e-14",固定种子首5个随机数一致
+K_interpolation_error,PASS,"max error=0.039474 pp","<=0.05 percentage points",K网格线性插值误差
+zero_one_edges,PASS,"passed","exact",零效果与完全效果边界

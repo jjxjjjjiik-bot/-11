@@ -1,0 +1,145 @@
+\section{模型的建立与求解}
+
+\subsection{问题一的分析与求解：我国成人超重肥胖率预测}
+
+\subsubsection{数据来源、口径与预处理}
+
+本文使用5个已经核实的全国成人超重肥胖率公开数据点。1992年成人超重率和肥胖率分别为16.4\%和3.6\%，合计为20.0\%\textsuperscript{[1]}；2002年两项比例分别为22.8\%和7.1\%，合计为29.9\%\textsuperscript{[2]}；2012年两项比例升至30.1\%和11.9\%，合计为42.0\%\textsuperscript{[3]}；2020年合计比例为50.7\%\textsuperscript{[4]}。Jiajin Hu、Jinchen Xie、Borui Liu等学者的系统综述与Meta分析报告，2023年该比例为56.9\%\textsuperscript{[5]}；本文按整数百分比取57\%，并记为57.0\%用于模型计算。模型使用的输入如表~\ref{tab:q1-data}~所示。
+
+\begin{table}[H]
+\centering
+\caption{我国成人超重肥胖率历史数据}
+\label{tab:q1-data}
+\begin{tabular}{ccp{7.0cm}}
+\toprule
+年份 & 超重肥胖率（\%） & 数据来源 \\
+\midrule
+1992 & 20.0 & 中国居民肥胖防治专家共识\textsuperscript{[1]} \\
+2002 & 29.9 & 中国成人超重与肥胖研究\textsuperscript{[2]} \\
+2012 & 42.0 & 中国居民营养与慢性病状况报告（2015年）\textsuperscript{[3]} \\
+2020 & 50.7 & 中国居民营养与慢性病状况报告（2020年）\textsuperscript{[4]} \\
+2023 & 57.0 & 中国肥胖危险因素系统综述（原值56.9\%）\textsuperscript{[5]} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+5个观测年份的间隔为$\Delta t=(10,10,8,3)$年。Logistic和Gompertz模型直接使用实际年份$t$计算，因此不要求等间距采样，也无需插值补齐年度数据。为避免人为制造信息，本文不对缺失年份插值，不将超重率和肥胖率分别外推，只预测两者合计比例。各数据点的来源、数值和核验状态另存于\texttt{q1\_source\_manifest.csv}，保证输入可追溯。
+
+\subsubsection{稀疏样本下的模型选择}
+
+成人超重肥胖率是取值范围为$[0,100\%]$的比例。若直接采用线性或指数模型长期外推，预测值可能超过100\%，缺少合理的物理边界。Logistic和Gompertz均为有上限的S形增长模型，并且能够直接处理非等间距年份，故分别作为主模型和结构稳健性模型\textsuperscript{[6--8]}。
+
+样本只有5个。若同时估计渐近上限$K$和另外两个增长参数，每个模型只剩2个残差自由度，且$K$容易停在优化边界，长期预测将由人为边界主导。因此本文不把$K$作为可识别参数，而将主分析中的$K$固定为比例变量的物理上限100\%。两个模型均只估计2个参数，并在后文通过$K=75\%$至$100\%$的重新拟合检验这一设定对预测的影响。
+
+\textbf{（1）Logistic主模型。} 设$t$为年份，成人超重肥胖率为$p_L(t)$，则
+\begin{equation}
+p_L(t)=\frac{K}{1+\exp[-r(t-t_0)]},\qquad K=100.
+\end{equation}
+式中，$r$为增长速率，$t_0$为曲线拐点。采用非线性最小二乘法估计$r$和$t_0$。
+
+\textbf{（2）Gompertz稳健性模型。} 以1992年为时间基准，建立
+\begin{equation}
+p_G(t)=K\exp\left\{-a\exp[-b(t-1992)]\right\},\qquad K=100.
+\end{equation}
+式中，$a$控制曲线初始位置，$b$控制增长速度。Gompertz曲线不关于拐点对称，可用于检验预测是否依赖Logistic的对称S形假设。
+
+对任一模型，以5个观测点的残差平方和
+\begin{equation}
+S(\boldsymbol\theta)=\sum_{i=1}^{5}\left[y_i-\hat p(t_i;\boldsymbol\theta)\right]^2
+\end{equation}
+为目标函数求参数$\boldsymbol\theta$。评价指标采用均方根误差（RMSE）、平均绝对百分比误差（MAPE）和决定系数$R^2$。
+
+\subsubsection{参数估计与拟合检验}
+
+MATLAB求得的参数及拟合指标如表~\ref{tab:q1-fit}~所示。
+
+\begin{table}[H]
+\centering
+\caption{两种S形模型的参数与拟合指标}
+\label{tab:q1-fit}
+\begin{tabular}{lccccc}
+\toprule
+模型 & 参数1 & 参数2 & RMSE & MAPE & $R^2$ \\
+\midrule
+Logistic & $r=0.052310$ & $t_0=2018.41$ & 0.7834 & 1.21\% & 0.9966 \\
+Gompertz & $a=1.651826$ & $b=0.033007$ & 1.0971 & 2.61\% & 0.9934 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+图~\ref{fig:q1-fit}~表明，两种模型均能复现历史增长趋势；Logistic在5个观测点上的RMSE和MAPE更小。残差输出显示，Logistic的最大留样残差出现在2020年前后，但各观测点残差均未改变总体增长判断。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{图1-拟合对比.png}
+\caption{两种S形增长模型的拟合与预测}
+\label{fig:q1-fit}
+\end{figure}
+
+\subsubsection{删点稳定性与滚动起点验证}
+
+由于样本量小，单纯比较样本内拟合优度容易高估模型能力。本文首先进行留一删点稳定性检验：每次留出1个年份，用其余4点重新估计模型参数，再预测被留出的观测值。该检验会在部分轮次使用较晚年份预测较早年份，因此只反映结果对单个样本点的敏感程度，不视为真正的时间外推验证。
+
+进一步采用滚动起点验证：先用1992---2012年3个点预测2020年，再用1992---2020年4个点预测2023年，保证训练数据均早于目标年份。两类检验结果汇总于表~\ref{tab:q1-loo}~。
+
+\begin{table}[H]
+\centering
+\caption{两种模型的删点稳定性与滚动预测结果}
+\label{tab:q1-loo}
+\begin{tabular}{lcccc}
+\toprule
+模型 & LOO-RMSE & LOO-MAPE & 滚动RMSE & 滚动MAPE \\
+\midrule
+Logistic & 1.3406 & 2.06\% & 1.9317 & 3.59\% \\
+Gompertz & 1.9967 & 5.03\% & 2.2481 & 2.90\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Logistic的两项LOO误差和滚动RMSE均小于Gompertz；滚动MAPE略高，是因为Gompertz对2020年单点预测非常接近观测值，而对更靠后的2023年低估3.18个百分点。综合样本内误差、删点稳定性和滚动RMSE，本文将Logistic作为问题一的主预测模型，Gompertz用于衡量模型结构差异。滚动验证只有2个目标年份，仍不能等同于大样本外部验证。
+
+\subsubsection{短期与长期预测结果}
+
+两种模型的2025---2050年预测如表~\ref{tab:q1-prediction}~和图~\ref{fig:q1-prediction}~所示。
+
+\begin{table}[H]
+\centering
+\caption{我国成人超重肥胖率预测结果}
+\label{tab:q1-prediction}
+\begin{tabular}{lcccccc}
+\toprule
+模型 & 2025 & 2030 & 2035 & 2040 & 2045 & 2050 \\
+\midrule
+Logistic & 58.53\% & 64.71\% & 70.43\% & 75.57\% & 80.07\% & 83.92\% \\
+Gompertz & 57.36\% & 62.42\% & 67.06\% & 71.26\% & 75.03\% & 78.39\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{图2-预测曲线.png}
+\caption{2025---2050年预测及模型结构包络}
+\label{fig:q1-prediction}
+\end{figure}
+
+据主模型预测，2030年我国成人超重肥胖率为$64.71\%$，属于题目要求的短期预测；2050年预测为$83.92\%$，属于长期趋势外推。Gompertz模型在2030年和2050年分别给出$62.42\%$和$78.39\%$。因此，两种模型对“持续上升”的趋势判断一致，但长期预测相差5.54个百分点，说明模型结构对远期结果已有明显影响。
+
+国家指导原则引用的既有研究给出2030年成人超重肥胖率可达$70.5\%$\textsuperscript{[16]}，高于本文两种模型结果。该差异可能来自数据序列、BMI口径、模型结构和参数设定不同；由于本文模型没有加入政策干预变量，不能据此推断“体重管理年”已经产生了多大效果。
+
+\subsubsection{饱和上限敏感性分析}
+
+为检验固定$K=100\%$对结果的影响，令$K=75\%,80\%,\ldots,100\%$。每改变一次$K$，均重新拟合Logistic的$r,t_0$和Gompertz的$a,b$，而不是固定其他参数直接缩放预测。结果如图~\ref{fig:q1-sensitivity}~所示。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.90\textwidth]{灵敏度分析.png}
+\caption{重新拟合条件下的饱和上限敏感性分析}
+\label{fig:q1-sensitivity}
+\end{figure}
+
+在上述情景内，Logistic对2030年的预测范围为$61.15\%$--$64.71\%$，对2050年的预测范围为$70.80\%$--$83.92\%$；Gompertz的相应范围为$59.37\%$--$62.42\%$和$68.47\%$--$78.39\%$。可见短期结论对$K$相对稳定，长期预测对饱和上限较敏感。因此，后续问题可使用Logistic主预测作为基准情景，同时保留Gompertz结果和$K$敏感性范围作为不确定性边界，不应把2050年的单点值解释为确定事实。
+
+\subsubsection{本题结论}
+
+在不增加虚构年份、不插值补点的前提下，本文以固定物理上限的两参数Logistic为主模型，并以Gompertz检验结构稳健性。Logistic的拟合RMSE为0.7834，LOO-RMSE为1.3406，均优于Gompertz；由此得到2030年和2050年成人超重肥胖率主预测分别为$64.71\%$和$83.92\%$。两种模型均判断未来仍将上升，但远期结果存在不可忽略的结构与上限不确定性，后续风险情景分析应同时保留这一边界。

@@ -1,0 +1,53 @@
+我国成人超重肥胖论文：关键参考文献 URL 核验清单
+
+[1] 中国居民肥胖防治专家共识（支撑1992年20.0%）
+可读PDF：https://sspphlib.yuntsg.com/ueditor/jsp/upload/file/20220707/1657187396507031931.pdf
+官方书目页：https://rs.yiigle.com/cmaid/1377701
+本机原文：D:\数学建模\重要文献整理\中国居民肥胖防止专家共识.pdf
+
+[2] Wu Y. Overweight and obesity in China（支撑2002年29.9%）
+开放全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC1550451/
+
+[5] Hu J, Xie J, Liu B, et al. Major risk factors of obesity in China...（支撑2023年56.9%）
+开放全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC13015754/
+
+[10] Varkevisser et al. Determinants of weight loss maintenance（问题二15项排序数据的核心来源）
+开放全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC7416131/
+Table 6直达：https://pmc.ncbi.nlm.nih.gov/articles/PMC7416131/#obr12772-tbl-0006
+
+[11] Lemstra et al. Weight loss intervention adherence...（支撑依从率数据）
+开放全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC4990387/
+
+
+[12] Neri et al. Dropout in cognitive behavioral treatment...（支撑退出率及原因）
+开放全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC11111870/
+
+[13] Hall & Kahan. Maintenance of Lost Weight...（支撑生理代偿与反弹）
+开放全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC5764193/
+
+[14] Ji et al. ACTION-China study（支撑中国肥胖管理障碍数据）
+公开摘要：https://pubmed.ncbi.nlm.nih.gov/39119627/
+
+[15] 肥胖症诊疗指南（2024年版）
+国家卫健委官方PDF：https://www.nhc.gov.cn/wjw/c100378/202410/bcf804e19e0c4246b5aea6cd338b55e1/files/1732873189749_61795.pdf
+
+
+
+[16] 体重管理指导原则（2024年版）
+国家卫健委官方PDF：https://www.nhc.gov.cn/ylyjs/zcwj/202412/75cb79c171c94def9e768193e65484f7/files/1736390749000_59785.pdf
+
+[19] 成人肥胖食养指南（2024年版）（问题三核心参数来源）
+国家卫健委官方PDF：https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d/files/1743476136267_20714.pdf
+证据位置：
+- PDF第7页：每日能量摄入降低500-1000 kcal；
+- PDF第10页：每周150-300分钟中等强度有氧运动、抗阻运动每周2-3天；
+- PDF第11页：每日约7小时睡眠；
+- PDF第13-14页：全谷物和杂豆、蔬菜、水果、奶豆等食物建议量。
+
+[22] 关于印发“体重管理年”活动实施方案的通知
+中国政府网官方全文：https://www.gov.cn/zhengce/zhengceku/202406/content_6959543.htm
+
+[25] World Population Prospects 2024（问题四成年人口原始数据）
+联合国官方单岁人口CSV压缩包：https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationBySingleAgeSex_Medium_2024-2100.csv.gz
+
+

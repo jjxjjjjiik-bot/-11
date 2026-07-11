@@ -1,0 +1,47 @@
+\section{符号说明}
+
+本文中使用的主要符号及其含义如表~\ref{tab:symbols}~所示。
+
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{p{1.8cm}p{6.0cm}p{4.3cm}}
+\caption{主要符号说明}\label{tab:symbols}\\
+\toprule
+符号 & 含义 & 单位/说明 \\
+\midrule
+\endfirsthead
+\toprule
+符号 & 含义 & 单位/说明 \\
+\midrule
+\endhead
+$t$ & 年份 & 年 \\
+$p_L(t),p_G(t)$ & Logistic、Gompertz模型预测率 & \% \\
+$K$ & 两种增长模型的饱和上限 & 主分析为100\% \\
+$r,t_0$ & Logistic模型的增长率与拐点 & $t_0$单位为年 \\
+$a,b$ & Gompertz模型的位置与增长参数 & 无量纲 \\
+\midrule
+$x_{ij}$ & 对象$i$在指标$j$上的原始值 & 决策矩阵元素 \\
+$z_{ij}$ & 标准化后的指标值 & CRITIC或TOPSIS标准化 \\
+$w_j$ & 指标$j$的权重 & $\sum_jw_j=1$ \\
+$S_i$ & 对象$i$的TOPSIS贴近度 & $0\leq S_i\leq1$ \\
+$E_i,A_i$ & 方案$i$的膳食能量摄入削减量与有氧时间 & kcal/day；min/week \\
+$G_i,H_i$ & 方案$i$的抗阻训练次数与睡眠目标 & day/week；hour/day \\
+$F_i,M_i$ & 方案$i$的失败因素覆盖度与画像匹配度 & 0--100 \\
+\midrule
+$N_{18+}(t)$ & 第$t$年18岁及以上人口 & 人 \\
+$p_0(t)$ & 无新增干预基准下的成人超重肥胖率 & \% \\
+$B_0(t)$ & 无新增干预基准下的成人超重肥胖人数 & 人 \\
+$g(t)$ & 2024---2030年干预实施爬坡系数 & $0\leq g(t)\leq1$ \\
+$\kappa_s,\alpha_s$ & 情景$s$的覆盖率与条件依从率 & $[0,1]$内情景参数 \\
+$\varepsilon_s$ & 情景$s$中坚持者的负担相对削减比例 & $[0,1]$内情景参数 \\
+$\eta_s(t)$ & 情景$s$在第$t$年的综合实现效果 & $g\kappa_s\alpha_s\varepsilon_s$ \\
+$B_s(t)$ & 情景$s$下第$t$年的成人超重肥胖人数 & 人 \\
+$\Delta B_s(t)$ & 情景$s$相对基准的可避免人数 & 人 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+问题一的局部评价指标、问题二CRITIC中间量、问题三评分系数等均在首次出现的公式后说明，不再重复列入总符号表。问题四的$\kappa_s,\alpha_s,\varepsilon_s$是情景参数，不是全国已观测政策效果。
+
+% ==================== 五、模型的建立与求解 ====================
