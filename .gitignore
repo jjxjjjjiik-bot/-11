@@ -29,3 +29,4 @@ output/*
 
 # Local backups
 *.bak-*
+.worktrees/
