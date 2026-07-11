@@ -1,0 +1,6 @@
+profile_id,profile_name,sedentary_risk,sleep_risk,diet_risk,stress_risk,time_constraint,monitoring_gap,sedentary_level,sleep_level,diet_level,stress_level,time_level,monitoring_level
+1,久坐办公型,95,50,75,50,75,75,极高,中,高,中,高,高
+2,夜班熬夜型,75,95,75,75,95,75,高,极高,高,高,极高,高
+3,高压应酬型,75,75,95,95,75,75,高,高,极高,极高,高,高
+4,时间受限型,75,75,50,75,95,75,高,高,中,高,极高,高
+5,饮食失衡型,50,50,95,50,50,75,中,中,极高,中,中,高

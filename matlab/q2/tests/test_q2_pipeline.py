@@ -84,6 +84,13 @@ class TestQ2DataContract(unittest.TestCase):
 
 
 class TestMatlabDeliveryContract(unittest.TestCase):
+    def test_paper_critic_standard_deviation_matches_implementation(self):
+        paper = (ROOT.parents[1] / "sections" / "q2.tex").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn(r"\sqrt{\frac{1}{m}\sum", paper)
+        self.assertNotIn(r"\sqrt{\frac{1}{m-1}\sum", paper)
+
     def test_required_matlab_files_exist(self):
         required = [
             "run_q2_all.m",

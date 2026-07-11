@@ -1,4 +1,4 @@
 figure_id,filename,matlab_function,current_status,main_content,paper_position
-F21,图2.1-减肥失败作用机制.png,plot_q2_mechanism.m,待在MATLAB图窗中人工编辑并导出,行为心理环境生理四层如何共同造成能量缺口难维持,原因机制分析之后
-F22,图2.2-主要因素CRITIC-TOPSIS排序.png,plot_q2_ranking.m,待在MATLAB图窗中人工编辑并导出,15项因素的横向条形排序并按四类因素着色,CRITIC-TOPSIS求解结果之后
-F23,图2.3-排序稳健性分析.png,plot_q2_sensitivity.m,待在MATLAB图窗中人工编辑并导出,因素乘六场景的名次热图并标注具体名次,灵敏度分析小节
+F21,减肥失败作用机制.png,plot_q2_mechanism.m,已人工导出；正式运行不会自动覆盖,行为心理环境生理四层如何共同造成能量缺口难维持,原因机制分析之后
+F22,减重维持因素排行.png,plot_q2_ranking.m,已人工导出；正式运行不会自动覆盖,15项因素的横向条形排序并按四类因素着色,CRITIC-TOPSIS求解结果之后
+F23,名词稳健性.png,plot_q2_sensitivity.m,已人工导出；正式运行不会自动覆盖,因素乘六场景的名次热图并标注具体名次,灵敏度分析小节
